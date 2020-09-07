@@ -22,14 +22,8 @@ if ( file_exists( get_template_directory() . '/inc/' ) ) {
 	}
 }
 
-
-
-
 /**
- * ACF JSON.
- *
- * @param  url $path bla bla bla.
- * @return url
+ * Salvo/importo i campi acf in formato json.
  */
 function ba_acf_json_save_point( $path ) {
 	if ( file_exists( INCLUDE_PATH . '/acf-json/' ) ) {
