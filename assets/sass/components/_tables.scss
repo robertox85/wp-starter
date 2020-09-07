@@ -1,0 +1,23 @@
+table{
+    th{
+        border: 1px solid $primary_light!important;
+        font-size: rem(12px);
+        letter-spacing: rem(0.5px);
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $primary_light;
+    }
+    tbody{
+        tr{
+            border: 1px solid $primary_lighter!important;
+            color: $standard_light;
+        }
+        tr:nth-child(even) {
+            background-color: $standard_white;   
+        }
+    
+        tr:nth-child(odd) {
+            background-color: $primary_ultralight;   
+        }
+    }
+}

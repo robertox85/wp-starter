@@ -1,0 +1,15 @@
+body.logged-in {
+    header {
+        margin-top: 46px;
+        @include media-breakpoint-only(xl) {
+            margin-top: 32px;
+        }
+    }
+}
+
+header {
+    background-color: #fff;
+    &.fixed-top {
+        box-shadow: 10px 10px 30px 0 rgba(34, 34, 34, 0.1)!important;
+    }
+}

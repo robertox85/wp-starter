@@ -1,0 +1,200 @@
+/** === Main menu === */
+
+#v1,
+#v2 {
+    .navbar-brand {
+        img {
+            transition: .3s;
+        }
+    }
+    &.scrolling {
+        .navbar-brand {
+            img {
+                max-width: 65%;
+            }
+        }
+    }
+    .main-navigation {
+        transition: .3s;
+        position: relative;
+        .navbar-collapse {
+            &.collapsing,
+            &.show {
+                display: flex;
+                flex-direction: column;
+                @include media-breakpoint-only(xl) {
+                    display: unset;
+                    flex-direction: unset;
+                }
+            }
+            .navbar-nav {
+                padding-top: rem(24px);
+                @include media-breakpoint-only(xl) {
+                    padding-top: 0;
+                }
+                .nav-item {
+                    padding-bottom: rem(12px);
+                    @include media-breakpoint-only(xl) {
+                        padding-bottom: 0;
+                        &:first-of-type {
+                            margin-left: rem(37px);
+                        }
+                        &:not(:last-of-type) {
+                            margin-right: rem(37px);
+                        }
+                    }
+                    .nav-link {
+                        font-weight: bold;
+                        border: 1px solid transparent;
+                        display: table;
+                        text-transform: uppercase;
+                        &:hover {
+                            background-color: rgba($color: $standard, $alpha: 0.2);
+                            border: 1px solid $standard_white;
+                        }
+                        &.dropdown-toggle::after {
+                            display: inline-block;
+                            margin-left: 0.255em;
+                            vertical-align: 0.255em;
+                            content: "";
+                            border-top: 0.3em solid;
+                            border-right: 0.3em solid transparent;
+                            border-bottom: 0;
+                            border-left: 0.3em solid transparent;
+                        }
+                    }
+                    .dropdown-menu {
+                        border-radius: 0px;
+                        border: none;
+                        @include media-breakpoint-only(xl) {
+                            border: 1px solid #003A70!important;
+                        }
+                        .nav-item {
+                            margin: 0;
+                            .dropdown-item {
+                                color: #003A70!important;
+                                text-transform: uppercase!important;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                    // menu 3 livello
+                    // &.show .dropdown-menu .dropdown:hover .dropdown-menu {
+                    //     position: absolute;
+                    //     top: 0;
+                    //     left: 100%;
+                    //     display: block;
+                    // }
+                }
+            }
+        }
+    }
+    .searchbox {
+        width: 100%;
+        padding-top: rem(24px);
+        @include media-breakpoint-only(xl) {
+            width: auto;
+            padding-top: 0;
+        }
+        .navbar--search {
+            @include media-breakpoint-only(xl) {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 90%;
+                height: 100%;
+                opacity: 0;
+                visibility: hidden;
+                transition: .5s;
+                &.active {
+                    opacity: 1;
+                    visibility: visible;
+                    transition-delay: .4s;
+                }
+            }
+            &::before {
+                content: '\f002';
+                position: absolute;
+                left: rem(15px);
+                font-size: 1rem;
+                color: $primary;
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 900;
+            }
+            input[type="search"] {
+                width: 100%!important;
+                background-color: #00000014;
+                height: rem(52px);
+                @include media-breakpoint-only(xl) {
+                    background-color: transparent;
+                    height: auto;
+                }
+                border: none;
+                outline: none;
+                color: $primary;
+                padding-left: rem(45px);
+            }
+            .button--close {
+                display: none;
+                @include media-breakpoint-only(xl) {
+                    display: inline-block;
+                    position: absolute;
+                    top: 0;
+                    right: rem(10px);
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .button--search-container {
+        display: none;
+        @include media-breakpoint-only(xl) {
+            display: inline-block;
+        }
+        .button--search {
+            opacity: 1;
+            visibility: visible;
+            transition: .3s;
+            transition-delay: .1s;
+            &.hide {
+                transition-delay: .1s;
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+}
+
+#v2 {
+    .navbar-brand {
+        margin-right: 0;
+    }
+    .main-navigation {
+        .navbar-collapse {
+            .navbar-nav {
+                width: 100%;
+                .nav-item {
+                    @include media-breakpoint-only(xl) {
+                        &:first-of-type {
+                            margin-left: 0;
+                        }
+                        .nav-link {
+                            padding-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .searchbox {
+        .navbar--search {
+            @include media-breakpoint-only(xl) {
+                width: 100%;
+            }
+        }
+    }
+}

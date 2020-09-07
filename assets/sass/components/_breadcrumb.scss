@@ -1,0 +1,23 @@
+.breadcrumb {
+  background-color: transparent;
+  border-radius: 0;
+  padding: rem(24px) 0 0;
+  margin-bottom: 0;
+}
+.breadcrumb-item {
+  color: $primary;
+  font-size: rem(14px);
+  letter-spacing: 0;
+  line-height: rem(20px);
+}
+.breadcrumb-item.active {
+  color: $primary_light;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: $primary;
+  content: "\f105";
+  font-family: "Font Awesome 5 Pro";
+  
+}
