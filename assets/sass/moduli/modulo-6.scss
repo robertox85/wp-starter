@@ -1,0 +1,52 @@
+.modulo_6 .equal {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.modulo_6.bianco {
+    background-color: #fff;
+}
+.modulo_6 h1 {
+    
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #00a8aa;
+}
+.modulo_6 .box {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.modulo_6 .box:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.modulo_6 .box:hover a {
+    text-decoration: none;
+}
+.modulo_6 .box .box-inner.turchese {
+    background-color: #00a8aa;
+}
+.modulo_6 .box .box-inner.turchese h2,
+.modulo_6 .box .box-inner.turchese p {
+    color: #fff;
+}
+.modulo_6 .box .box-inner.grigio {
+    background-color: #303133;
+}
+.modulo_6 .box .box-inner h2 {
+    
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #00a8aa;
+}
+.modulo_6 .box .box-inner p {
+    color: #fff;
+    
+    font-size: 1.125rem;
+    font-style: normal;
+    line-height: 1.5;
+}

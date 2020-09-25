@@ -1,0 +1,49 @@
+.modulo_4 .accordion {
+    border-left-color: hsla(0, 0%, 100%, 0.25);
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.25);
+    border-right-color: hsla(0, 0%, 100%, 0.25);
+    border-top: 1px solid hsla(0, 0%, 100%, 0.25);
+}
+.modulo_4 .accordion a {
+    display: block;
+    color: inherit;
+    position: relative;
+    padding: 1.125rem 1.25rem 1.125rem 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 900 !important;
+    
+    letter-spacing: 0.1em;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.modulo_4 .accordion a i {
+    position: absolute;
+    right: 0;
+}
+.modulo_4 .accordion a:hover {
+    color: #00a8aa;
+}
+.modulo_4 .accordion div.collapse:before {
+    content: "";
+    position: relative;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-color: hsla(0, 0%, 100%, 0.25);
+}
+.modulo_4 .accordion .accordion-body {
+    padding: 27px 0;
+}
+.modulo_4 .accordion .accordion-body p {
+    
+    font-size: 1.125rem;
+}
+.modulo_4 .accordion a[aria-expanded="true"] {
+    color: #00a8aa;
+}
+.modulo_4 .accordion a[aria-expanded="true"] i {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

@@ -26,7 +26,15 @@
             "type": "date_picker",
             "instructions": "",
             "required": 0,
-            "conditional_logic": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f5e50f453eeb",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
             "wrapper": {
                 "width": "50",
                 "class": "",
@@ -35,6 +43,123 @@
             "display_format": "d\/m\/Y",
             "return_format": "d\/m\/Y",
             "first_day": 1
+        },
+        {
+            "key": "field_5f5e50db53eea",
+            "label": "",
+            "name": "evento_ripetibile",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5f5e50f453eeb",
+                    "label": "Evento ripetibile",
+                    "name": "evento_ripetibile_toggle",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 0,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5f5e511653eec",
+                    "label": "Con quale frequenza?",
+                    "name": "evento_ripetibile_frequenza",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f5e50f453eeb",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "nessuna": "nessuna",
+                        "giornaliera": "giornaliera",
+                        "settimanale": "settimanale",
+                        "mensile": "mensile",
+                        "annuale": "annuale"
+                    },
+                    "allow_null": 0,
+                    "default_value": "nessuna",
+                    "layout": "horizontal",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_5f5e519a53eed",
+                    "label": "Fine ripetizione",
+                    "name": "evento_ripetibile_ricorrenza",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f5e50f453eeb",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Mai": "Mai",
+                        "Dopo": "Dopo",
+                        "Data": "Data"
+                    },
+                    "allow_null": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_5f5f59fd76de6",
+                    "label": "Fine",
+                    "name": "evento_ripetibile_fine",
+                    "type": "date_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "display_format": "d\/m\/Y",
+                    "return_format": "d\/m\/Y",
+                    "first_day": 1
+                }
+            ]
         }
     ],
     "location": [
@@ -42,7 +167,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "eventi"
+                "value": "evento"
             }
         ]
     ],
@@ -54,5 +179,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1597746466
+    "modified": 1600084544
 }

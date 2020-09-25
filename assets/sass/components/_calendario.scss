@@ -1,0 +1,119 @@
+
+#calendar-outer {
+    position: relative;
+    padding: 1rem 0;
+
+.prev {
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+}
+
+.next {
+	display: inline-block;
+	float: right;
+	cursor: pointer;
+}
+
+:focus {
+	outline: none;
+}
+
+.week-name-title {
+	padding: 0;
+}
+
+.week-name-title li {
+	width: calc(100% / 7);
+	display: inline-block;
+	text-align: left;
+	padding: 0 1.5rem;
+	position: relative;
+}
+
+@media screen and (max-width: 987px) {
+	.week-name-title li {
+		display: block;
+		visibility: hidden;
+	}
+	.week-name-title li::first-letter {
+		visibility: visible;
+	}
+	.event--hours {
+		display: none;
+	}
+	.event--title {
+		display: block;
+		visibility: hidden;
+	}
+	.event--title::first-letter {
+		visibility: visible;
+	}
+}
+
+.week-name-title:not(.foot) li:after {
+	content: '';
+	width: 1px;
+	position: absolute;
+	background-color: #8C8E90;
+	height: 100%;
+	right: 0;
+	top: -15px;
+}
+
+
+}
+
+#calendar-inner {
+    padding: 0 1rem;
+}
+#calendar-outer.loading:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    transition: 0.3s;
+}
+
+#calendar-outer.loading-out:before {
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(0);
+}
+
+#calendar-outer.loading .week-name-title li {
+    position: unset;
+}
+#calendar-outer.loading-out .week-name-title li {
+    position: relative;
+}
+#calendar-outer .card--container {
+    min-width: calc(100% / 7) !important;
+    max-width: calc(100% / 7) !important;
+	border: 0;
+	min-height: 100px;
+    position: relative;
+}
+
+.card--container.child:after {
+    // content: '';
+    // width: 1px;
+    // height: 100%;
+    // background-color: #8C8E90;
+    // display: block;
+    // position: absolute;
+    // top: 0;
+	// right: 0;
+	// bottom: 0;
+}
+
+.card--container.extra > .card--header {
+    color: #7f9cb7 !important;
+}
+
+.card--container.extra > .card--header p {
+    color: #7f9cb7 !important;
+}

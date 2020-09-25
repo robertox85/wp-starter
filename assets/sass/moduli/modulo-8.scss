@@ -1,0 +1,50 @@
+.modulo_8 {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.modulo_8 {
+    min-height: 700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.modulo_8:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 186, 186, 0.8);
+}
+.modulo_8 h2,
+.modulo_8 h3 {
+    
+    font-weight: 900;
+    font-style: italic;
+}
+.modulo_8 h2 {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+.modulo_8 h2:after {
+    content: "";
+    height: 5px;
+    background-color: #000;
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+}
+.modulo_8 h3 {
+    color: #000;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}

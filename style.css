@@ -11507,6 +11507,117 @@ textarea:lang(vi) {
   text-align: left;
 }
 
+#calendar-outer {
+  position: relative;
+  padding: 1rem 0;
+}
+
+#calendar-outer .prev {
+  display: inline-block;
+  float: left;
+  cursor: pointer;
+}
+
+#calendar-outer .next {
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+}
+
+#calendar-outer :focus {
+  outline: none;
+}
+
+#calendar-outer .week-name-title {
+  padding: 0;
+}
+
+#calendar-outer .week-name-title li {
+  width: calc(100% / 7);
+  display: inline-block;
+  text-align: left;
+  padding: 0 1.5rem;
+  position: relative;
+}
+
+@media screen and (max-width: 987px) {
+  #calendar-outer .week-name-title li {
+    display: block;
+    visibility: hidden;
+  }
+  #calendar-outer .week-name-title li::first-letter {
+    visibility: visible;
+  }
+  #calendar-outer .event--hours {
+    display: none;
+  }
+  #calendar-outer .event--title {
+    display: block;
+    visibility: hidden;
+  }
+  #calendar-outer .event--title::first-letter {
+    visibility: visible;
+  }
+}
+
+#calendar-outer .week-name-title:not(.foot) li:after {
+  content: '';
+  width: 1px;
+  position: absolute;
+  background-color: #8C8E90;
+  height: 100%;
+  right: 0;
+  top: -15px;
+}
+
+#calendar-inner {
+  padding: 0 1rem;
+}
+
+#calendar-outer.loading:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#calendar-outer.loading-out:before {
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-backdrop-filter: blur(0);
+          backdrop-filter: blur(0);
+}
+
+#calendar-outer.loading .week-name-title li {
+  position: unset;
+}
+
+#calendar-outer.loading-out .week-name-title li {
+  position: relative;
+}
+
+#calendar-outer .card--container {
+  min-width: calc(100% / 7) !important;
+  max-width: calc(100% / 7) !important;
+  border: 0;
+  min-height: 100px;
+  position: relative;
+}
+
+.card--container.extra > .card--header {
+  color: #7f9cb7 !important;
+}
+
+.card--container.extra > .card--header p {
+  color: #7f9cb7 !important;
+}
+
 /* Typography */
 html {
   font-size: 16px;
