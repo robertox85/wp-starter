@@ -1,0 +1,33 @@
+// px to rem
+@function rem($size) {
+    @return $size / 16px * 1rem;
+}
+
+@function contains($list, $item) {
+    @return index($list, $item) != null;
+}
+
+@function set-outline-button-text-color($color){
+    @if lightness(invert($color)) < 1% {
+        @return #000;
+    } @else {
+        @return $color;
+    }
+}
+
+
+@function set-button-text-color($btnColor: "#fff", $type : "solid" ) {
+    @if ($type == "solid"){
+        @if lightness($btnColor) > 65% {
+            @return #000;
+        } @else {
+            @return #fff;
+        }
+    }@else{
+        @if lightness(invert($btnColor)) < 1% {
+            @return #000;
+        } @else {
+            @return $btnColor;
+        }
+    }
+}

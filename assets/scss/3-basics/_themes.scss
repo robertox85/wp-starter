@@ -1,0 +1,4 @@
+// per ogni colore definito in color, genera uno stile per tutto il tema
+@each $name, $hex in $colors {
+    @include theme($name, var(--#{name}), var(--#{name}));
+}

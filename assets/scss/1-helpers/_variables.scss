@@ -1,0 +1,104 @@
+// Colors
+// ====================================
+$standard: #1f2326;
+
+$standard-light : hsla(var(--standard), 50%, 75%, 100%);
+$standard-normal: hsla(var(--standard), 50%, 50%, 100%);
+$standard-darker: hsla(var(--standard), 50%, 35%, 100%);
+
+$standard--light: #8c8e90;
+$standard--white: #ffffff;
+$primary: #003a70;
+$primary--light: #7f9cb7;
+$primary--lighter: #e0e2e6;
+$primary--superlight: #f2f8fd;
+$primary--ultralight: #f9fcfe;
+$secondary: #0062bd;
+
+
+
+$colors: (
+    standard: $standard,
+    standard--light: $standard--light,
+    standard--white: $standard--white,
+    primary: $primary,
+    primary--light: $primary--light,
+    primary--lighter: $primary--lighter,
+    primary--superlight: $primary--superlight,
+    primary--ultralight: $primary--ultralight,
+    secondary: $secondary,
+);
+
+// override hamburger menu variables
+// ====================================
+$hamburger-layer-color         : var(--primary);
+$hamburger-active-layer-color  : var(--primary);
+$hamburger-active-hover-opacity: 1;
+
+// transition
+$transition : .2s;
+
+// override bootstrap spacer variables
+// ====================================
+$spacer: 1rem !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+  (
+    0     : 0,
+    4     : ($spacer * 0.25),
+    8     : ($spacer * 0.5),
+    12    : ($spacer * 0.75),
+    16    : ($spacer * 1),
+    20    : ($spacer * 1.25),
+    24    : ($spacer * 1.5),
+    28    : ($spacer * 1.75),
+    32    : ($spacer * 2),
+    36    : ($spacer * 2.25),
+    40    : ($spacer * 2.5),
+    44    : ($spacer * 2.75),
+    48    : ($spacer * 3),
+    52    : ($spacer * 3.25),
+    56    : ($spacer * 3.5),
+    60    : ($spacer * 3.75),
+    64    : ($spacer * 4),
+    68    : ($spacer * 4.25),
+    72    : ($spacer * 4.5),
+    76    : ($spacer * 4.75),
+    80    : ($spacer * 5),
+    84    : ($spacer * 5.25),
+    88    : ($spacer * 5.5),
+    92    : ($spacer * 5.75),
+    96    : ($spacer * 6),
+    100   : ($spacer * 6.25)
+  ),
+  $spacers
+);
+
+// override bootstrap breakpoints variables
+// ====================================
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px,
+  xxxl: 1600px
+) !default;
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1440px,
+  xxxl: 1600px
+) !default;

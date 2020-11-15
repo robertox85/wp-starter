@@ -1,0 +1,147 @@
+.modulo-2 img.immagine {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.modulo-2 .box-img {
+  padding: 100px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modulo-2 .box-img .image-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+.modulo-2 .anim4 {
+  -webkit-transform: translateY(80px);
+          transform: translateY(80px);
+}
+
+.modulo-2 .anim3 {
+  -webkit-transform: translateY(120px);
+          transform: translateY(120px);
+}
+
+.modulo-2 h1,
+.modulo-2 h2,
+.modulo-2 h3,
+.modulo-2 h4,
+.modulo-2 h5,
+.modulo-2 h6 {
+  position: relative;
+  font-weight: 900 !important;
+  font-style: italic !important;
+  font-size: rem(29px) !important;
+}
+
+.modulo-2 h1:after,
+.modulo-2 h2:after,
+.modulo-2 h3:after,
+.modulo-2 h4:after,
+.modulo-2 h5:after,
+.modulo-2 h6:after {
+  content: '';
+  height: 5px;
+  position: absolute;
+  width: 100%;
+  background-color: #000000;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+
+.modulo-2.immagine h1,
+.modulo-2.immagine h2,
+.modulo-2.immagine h3,
+.modulo-2.immagine h4,
+.modulo-2.immagine h5,
+.modulo-2.immagine h6, .modulo-2.immagine_2 h1,
+.modulo-2.immagine_2 h2,
+.modulo-2.immagine_2 h3,
+.modulo-2.immagine_2 h4,
+.modulo-2.immagine_2 h5,
+.modulo-2.immagine_2 h6 {
+  color: #fff;
+  position: relative;
+}
+
+.modulo-2.immagine h1:after,
+.modulo-2.immagine h2:after,
+.modulo-2.immagine h3:after,
+.modulo-2.immagine h4:after,
+.modulo-2.immagine h5:after,
+.modulo-2.immagine h6:after, .modulo-2.immagine_2 h1:after,
+.modulo-2.immagine_2 h2:after,
+.modulo-2.immagine_2 h3:after,
+.modulo-2.immagine_2 h4:after,
+.modulo-2.immagine_2 h5:after,
+.modulo-2.immagine_2 h6:after {
+  content: '';
+  height: 5px;
+  position: absolute;
+  width: 100%;
+  background-color: #00A8AA;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+
+.modulo-2.default {
+  background-color: var(--primary--light);
+}
+
+.modulo-2.default h1,
+.modulo-2.default h2,
+.modulo-2.default h3,
+.modulo-2.default h4,
+.modulo-2.default h5,
+.modulo-2.default h6,
+.modulo-2.default p {
+  color: #fff !important;
+}
+
+.modulo-2.default h1,
+.modulo-2.default h2,
+.modulo-2.default h3,
+.modulo-2.default h4,
+.modulo-2.default h5,
+.modulo-2.default h6 {
+  position: relative;
+}
+
+.modulo-2.default h1:after,
+.modulo-2.default h2:after,
+.modulo-2.default h3:after,
+.modulo-2.default h4:after,
+.modulo-2.default h5:after,
+.modulo-2.default h6:after {
+  background-color: var(--primary);
+}
+
+.modulo-2 p {
+  font-weight: normal !important;
+  font-style: italic !important;
+  font-size: rem(18px) !important;
+}
+
+@media screen and (max-width: 992px) {
+  .modulo-2 h1 {
+    font-size: rem(24px) !important;
+  }
+  .modulo-2 p {
+    font-size: rem(16px);
+  }
+}

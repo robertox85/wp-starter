@@ -1,0 +1,113 @@
+Kirki::add_panel(
+                'typography_panel',
+                array(
+                    'priority'    => 10,
+                    'title'       => esc_html__('Typography', 'starter'),
+                    'description' => esc_html__('Typography description', 'starter'),
+                )
+            );
+        
+        
+            Kirki::add_section(
+                'typography_section_h1',
+                array(
+                    'title'          => esc_html__('H1', 'starter'),
+                    'description'    => esc_html__('H1 section description.', 'starter'),
+                    'panel'          => 'typography_panel',
+                    'priority'       => 160,
+                )
+            );
+        
+            Kirki::add_section(
+                'typography_section_h2',
+                array(
+                    'title'          => esc_html__('H2', 'starter'),
+                    'description'    => esc_html__('H2 section description.', 'starter'),
+                    'panel'          => 'typography_panel',
+                    'priority'       => 160,
+                )
+            );
+        
+            Kirki::add_section(
+                'typography_section_h3',
+                array(
+                    'title'          => esc_html__('H3', 'starter'),
+                    'description'    => esc_html__('H3 section description.', 'starter'),
+                    'panel'          => 'typography_panel',
+                    'priority'       => 160,
+                )
+            );
+        
+            Kirki::add_section(
+                'typography_section_h4',
+                array(
+                    'title'          => esc_html__('H4', 'starter'),
+                    'description'    => esc_html__('H4 section description.', 'starter'),
+                    'panel'          => 'typography_panel',
+                    'priority'       => 160,
+                )
+            );
+        
+            Kirki::add_section(
+                'typography_section_h5',
+                array(
+                    'title'          => esc_html__('H5', 'starter'),
+                    'description'    => esc_html__('H5 section description.', 'starter'),
+                    'panel'          => 'typography_panel',
+                    'priority'       => 160,
+                )
+            );
+        
+            Kirki::add_section(
+                'typography_section_h6',
+                array(
+                    'title'          => esc_html__('H6', 'starter'),
+                    'description'    => esc_html__('H6 section description.', 'starter'),
+                    'panel'          => 'typography_panel',
+                    'priority'       => 160,
+                )
+            );
+        
+            Kirki::add_section(
+                'typography_section_body',
+                array(
+                    'title'          => esc_html__('Body', 'starter'),
+                    'description'    => esc_html__('Body section description.', 'starter'),
+                    'panel'          => 'typography_panel',
+                    'priority'       => 160,
+                )
+            );
+        
+        
+            Kirki::add_section(
+                'typography_section_p',
+                array(
+                    'title'          => esc_html__('P', 'starter'),
+                    'description'    => esc_html__('P section description.', 'starter'),
+                    'panel'          => 'typography_panel',
+                    'priority'       => 160,
+                )
+            );
+        
+            Kirki::add_section(
+                'typography_section_a',
+                array(
+                    'title'          => esc_html__('A', 'starter'),
+                    'description'    => esc_html__('A section description.', 'starter'),
+                    'panel'          => 'typography_panel',
+                    'priority'       => 160,
+                )
+            );
+        
+        
+            include_once CORE_PATH . 'customizer/header/logo.php';
+            include_once CORE_PATH . 'customizer/typography/kirki_field_h1.php';
+            include_once CORE_PATH . 'customizer/typography/kirki_field_h2.php';
+            include_once CORE_PATH . 'customizer/typography/kirki_field_h3.php';
+            include_once CORE_PATH . 'customizer/typography/kirki_field_h4.php';
+            include_once CORE_PATH . 'customizer/typography/kirki_field_h5.php';
+            include_once CORE_PATH . 'customizer/typography/kirki_field_h6.php';
+            include_once CORE_PATH . 'customizer/typography/kirki_field_body.php';
+            include_once CORE_PATH . 'customizer/typography/kirki_field_p.php';
+            include_once CORE_PATH . 'customizer/typography/kirki_field_a.php';
+        

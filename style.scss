@@ -1,42 +1,18 @@
-/*
-Theme Name: Starter theme
-Theme URI: 
-Author: Roberto Di Marco
-Author URI: www.robertodimarco.it
-Description: Starter theme
-Tags: 
-Version: 1.0
-Requires at least: 5.0
-Tested up to: 5.4
-Requires PHP: 7.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: starter
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-*/
-
-// @include media-breakpoint-only(xs) { }
-// @include media-breakpoint-only(sm) { }
-// @include media-breakpoint-only(md) { }
-// @include media-breakpoint-only(lg) { }
-// @include media-breakpoint-only(xl) { }
-
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 @import "assets/sass/variables-site/variables-site";
 @import "assets/sass/mixins/mixins-master";
 
 /* Color Classes */
 
-@import "assets/sass/variables-site/colors-classes";
+// @import "assets/sass/variables-site/colors-classes";
 
 /* Components */
 
-@import "assets/sass/components/components";
+// @import "assets/sass/components/components";
 
 /* Typography */
 
-@import "assets/sass/typography/typography";
+// @import "assets/sass/typography/typography";
 
 /* Navigation */
 
@@ -44,11 +20,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* Form */
 
-@import "assets/sass/form/form";
+// @import "assets/sass/form/form";
 
 /* Layouts */
 
-@import "assets/sass/layouts/layouts";
+// @import "assets/sass/layouts/layouts";
 
 // solo per demo. Da rimuovere
 #content {

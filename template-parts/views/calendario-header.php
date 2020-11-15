@@ -26,10 +26,10 @@ $calendario = new PHPCalendario();
                     <i class="fa fa-chevron-left"></i>
                 </a>
                 <h2 class="">
-                    <select name="month" id="month" class="border-0 text-capitalize section color__standard">
+                    <select name="month" id="month" class="border-0 text-capitalize section color-standard">
                         <?php echo $calendario->get_months_select($current_month); ?>
                     </select>
-                    <select name="year" id="year" class="border-0 text-capitalize section color__standard">
+                    <select name="year" id="year" class="border-0 text-capitalize section color-standard">
                         <?php echo $calendario->get_years_select($current_month); ?>
                     </select>
                 </h2>
@@ -39,7 +39,7 @@ $calendario = new PHPCalendario();
                     <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
-            <a href="#" id="today" class="col-12 color__primary text-center d-block"
+            <a href="#" id="today" class="col-12 color-primary text-center d-block"
                 name="today"><small>Oggi</small></a>
         </div>
         <div class="col-12">

@@ -1,0 +1,14 @@
+.modulo-5 {
+    @media screen and (min-width: 992px) {
+        padding: rem(100px) 0;
+    }
+
+    h1 {
+        font-size: rem(40px);
+        line-height: rem(40px);
+        color: #fff;
+        font-weight: 900;
+        font-style: italic;
+        margin: rem(25px) 0;
+    }
+}

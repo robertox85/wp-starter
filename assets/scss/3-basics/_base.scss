@@ -1,0 +1,14 @@
+// per ogni colore definito genero le classi per color e bg
+// avranno il nome .color-nomeColore / .bg-nomeColore (es. .color-primary, bg-primary)
+// ====================================
+.color {
+    @include color-modifiers($prefix: "-");
+}
+
+.bg {
+    @include color-modifiers($attribute: "background-color", $prefix: "-");
+}
+
+.border {
+    @include color-modifiers($attribute: "border-color", $prefix: "-");
+}

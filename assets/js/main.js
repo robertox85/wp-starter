@@ -21,8 +21,10 @@ function init() {
     toggleHamburger();
     toggleSearchBar();
     initNavBar();
+    
+    // const swup = new Swup();
+    jQuery('.slick-slider').slick();
 
-    window.addEventListener("scroll", onScroll);
 }
 
 

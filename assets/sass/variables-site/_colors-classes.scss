@@ -1,8 +1,0 @@
-$colors: ( standard : $standard, standard-light : $standard_light, standard-white : $standard_white, primary : $primary, primary-light : $primary_light, primary-lighter : $primary_lighter, primary-superlight : $primary_superlight, primary-ultralight : $primary_ultralight, secondary : $secondary);
-.color {
-    @include color-modifiers($prefix: '__');
-}
-
-.bg {
-    @include color-modifiers($attribute: 'background-color', $prefix: '__');
-}

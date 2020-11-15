@@ -1,0 +1,87 @@
+.modulo-3 {
+    &.box-container {
+        .box-1,
+        .box-2,
+        .box-3{
+            height: 100%;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 900;
+            font-style: italic;
+            display: inline-block;
+        }
+        h1 {
+            font-size: rem(32px);
+            line-height: rem(38px);
+        }
+        h2 {
+            font-size: rem(20px);
+            line-height: rem(24px);
+            color: var(--primary--light);
+        }
+        .read-more {
+            display: block;
+            color: inherit;
+            position: relative;
+            padding: rem(18px) rem(20px) rem(18px) 0;
+            text-transform: uppercase;
+            color: #fff;
+            font-size: rem(16px);
+            font-weight: 900 !important;
+            letter-spacing: 0.1em;
+            width: 100%;
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-color: rgba(255, 255, 255, 0.25);
+            transition: .3s;
+            i {
+                position: absolute;
+                right: 0;
+                transition: .3s;
+            }
+            &.is_reading {
+                color: var(--primary--light);
+                i {
+                    transform: rotate(-90deg);
+                }
+            }
+            z-index: 1000;
+        }
+        .box-1 {
+            background-color: var(--primary--light);
+            color: #fff;
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                color: #fff;
+            }
+            
+        }
+        
+        .box-3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        @media screen and (max-width: 992px) {
+            .box-2,
+            .box-3 {
+                height: 0;
+                padding: 0!important;
+                opacity: 0;
+                transition: .3s;
+                
+            }
+        }
+    }
+}

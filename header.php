@@ -34,5 +34,8 @@
 
 <body <?php body_class(); ?>>
 
-	<?php starter_get_header_version(); ?>
-	<div id="content" class="site-content container-fluid">
+	
+	<?php starter_get_template_version('header'); ?>
+
+	<main id="swup" class="site-content container-fluid transition-fade">
+	

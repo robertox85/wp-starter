@@ -14,7 +14,7 @@
 
 <!-- pre footer 1 -->
 <?php if ( is_active_sidebar( 'pre_footer' ) ) : ?>
-	<div id="pre_footer" class="container-fluid bg__primary--superlight">
+	<div id="pre_footer" class="container-fluid bg-primary--superlight">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -28,7 +28,7 @@
 <?php endif; ?>
 
 
-<?php starter_get_footer_version(); ?>
+<?php starter_get_template_version('footer'); ?>
 
 
 <?php wp_footer(); ?>

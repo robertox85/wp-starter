@@ -1,0 +1,35 @@
+/*! 
+Theme Name: P&Co Starter
+Theme URI: http://pezzilli.com
+Description: P&Co Starter
+Template:		 pcostarter
+Version:		 1.0.0
+Text Domain:	 pcostarter
+Author: Pezzilli & Co.
+Author URI: https://www.pezzilli.com
+Tags: Gulp 
+License: MIT 
+License URI: http://opensource.org/licenses/mit-license.php */
+
+
+// 1 - HELPERS
+@import '1-helpers/helpers';
+
+// 2 - TOOLS
+@import '2-tools/tools';
+
+// 3 - BASICS
+@import '3-basics/basics';
+
+// 4 - LAYOUT
+@import '4-layout/layout';
+
+// 5 - MODULES
+@import '5-modules/modules';
+
+// 6 - PAGES
+@import '6-pages/pages';
+
+// 7 - BREAKPOINTS
+// @import '7-breakpoints/breakpoints';
+

@@ -11,7 +11,7 @@ $cellName = get_query_var('cellName');
 ?>
 
 
-<div class="card--container color__primary child">
+<div class="card--container color-primary child">
  
  <div class="card--header ">
  <p class="card--header__event--day number "> <?php echo $cellName; ?> <?php echo $day; ?> </p>

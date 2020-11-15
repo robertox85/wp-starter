@@ -1,0 +1,440 @@
+﻿ATENEO;REGIONE;CITTA;INDIRIZZO;HQ (si/no);Sedi Distaccate (si/no)
+Unimarconi;Lazio;Roma;Via Plinio, 44;Si;No
+Unimarconi;Lazio;Roma;Via Paolo Emilio, 29;No;Si
+Unimarconi;Calabria;Reggio Calabria;Via Filippini, 14;No;Si
+Unimarconi;Campania;Napoli;Via Alfonso d'Avalos, 25;No;Si
+Unimarconi;Emilia Romagna;Cento;Via IV Novembre, 11;No;Si
+Unimarconi;Lombardia;Milano;Via Guido Cavalcanti, 5;No;Si
+Unimarconi;Liguria;Sestri Levante;Via Nazionale, 191;No;Si
+Unimarconi;Piemonte;Alessandria;Via Don Luigi Orione, 1;No;Si
+Unimarconi;Puglia;Trani;Via Pisa, 53;No;Si
+Unimarconi;Sicilia;Palermo;Via Mariano Stabile, 124;No;Si
+Unimarconi;Toscana;Capalbio;Strada Pescia Fiorentina Chiarone, 21;No;Si
+eCampus;Lombardia;Novedrate;Via Isimbardi 10;Si;No
+eCampus;Lombardia;Milano;Via Privata Chioggia nr. 4;No;Si
+eCampus;Veneto;Padova;Galleria Giovanni Berchet, n.4;No;Si
+eCampus;Piemonte;Torino;Via Bertola, 34;No;Si
+eCampus;Toscana;Firenze;Via San Gallo, 103;No;Si
+eCampus;Lazio;Roma;via Matera,18;No;Si
+eCampus;Campania;Napoli;Via Ponte di Tappia nr. 47;No;Si
+eCampus;Puglia;Bari;P.zza G. Cesare, 13;No;Si
+eCampus;Sardegna;Cagliari;Viale Regina Margherita, 30;No;Si
+eCampus;Calabria;Reggio Calabria;Corso G. Garibaldi n. 154;No;Si
+eCampus;Sicilia;Palermo;Via Principe di Belmonte, 105;No;Si
+eCampus;Sicilia;Catania;Via Milano, 47;No;Si
+eCampus;Piemonte;Alessandria;Corso Roma, 45;No;Si
+eCampus;Marche;Ancona;Via Antonio Giannelli, 36;No;Si
+eCampus;Toscana;Arezzo;Via Ricasoli, 3;No;Si
+eCampus;Campania;Avellino;Largo de Luca di Montefusco, 17;No;Si
+eCampus;Lombardia;Bergamo;Via Borfuro, 12/M;No;Si
+eCampus;Emilia Romagna;Bologna;Piazza XX Settembre, 1;No;Si
+eCampus;Lombardia;Brescia;C.so Zanardelli, 32;No;Si
+eCampus;Puglia;Brindisi;P.zza Cairoli, 13;No;Si
+eCampus;Campania;Caserta;Corso Trieste, 116;No;Si
+eCampus;Calabria;Catanzaro;Viale Lucrezia Della Valle, 68;No;Si
+eCampus;Umbria;Città di Castello;Via Carlo Marx, 24;No;Si
+eCampus;Lombardia;Como;Viale Masia, 26;No;Si
+eCampus;Calabria;Cosenza;Via Paul Harris (ex G.Doria), 7;No;Si
+eCampus;Emilia Romagna;Ferrara;Corso Porta Reno, 115;No;Si
+eCampus;Puglia;Foggia;Corso Garibaldi, 10;No;Si
+eCampus;Lazio;Frosinone;Via Aldo Moro, 481;No;Si
+eCampus;Liguria;Genova;Via Serra, 6/8;No;Si
+eCampus;Liguria;La Spezia;Via Cernaia, 14;No;Si
+eCampus;Lazio;Latina;Via Duca del Mare, 19;No;Si
+eCampus;Puglia;Lecce;Via Brenta, 2/a (2° piano);No;Si
+eCampus;Marche;Macerata;Corso Cavour, 66;No;Si
+eCampus;Sicilia;Messina;Via Dogali, 50;No;Si
+eCampus;Emilia Romagna;Modena;Piazzale S. Domenico, 6;No;Si
+eCampus;Piemonte;Novara;Via XX Settembre, 38;No;Si
+eCampus;Emilia Romagna;Parma;Piazza Ghiaia, 23;No;Si
+eCampus;Lombardia;Pavia;Viale Matteotti, 49;No;Si
+eCampus;Umbria;Perugia;Via Marzia, 16;No;Si
+eCampus;Abruzzo;Pescara;Corso Umberto I, 103;No;Si
+eCampus;Emilia Romagna;Piacenza;Via Cardinale Maculani, 36;No;Si
+eCampus;Toscana;Pisa;Corso Italia 5;No;Si
+eCampus;Friuli Venezia Giulia;Pordenone;Viale Gorizia, 2;No;Si
+eCampus;Basilicata;Potenza;Corso XVIII Agosto 1860, 2;No;Si
+eCampus;Emilia Romagna;Ravenna;Via Salara, 16;No;Si
+eCampus;Emilia Romagna;Reggio Emilia;Piazza della Vittoria, 1;No;Si
+eCampus;Emilia Romagna;Rimini;Corso D'Augusto, 155;No;Si
+eCampus;Marche;San Benedetto del Tronto;Via Calatafimi, 200;No;Si
+eCampus;Campania;Salerno;Via Gonzaga, 12;No;Si
+eCampus;Puglia;Taranto;Via Giacomo Matteotti, 7;No;Si
+eCampus;Trentino Alto Adige;Trento;Via A. Diaz, 8;No;Si
+eCampus;Veneto;Treviso;Via Pescatori, 31;No;Si
+eCampus;Friuli Venezia Giulia;Trieste;Largo Bonifacio, 1;No;Si
+eCampus;Friuli Venezia Giulia;Udine;Via della Vigna, 2/a;No;Si
+eCampus;Lombardia;Varese;Via Bernascone, 14;No;Si
+eCampus;Veneto;Venezia;Via Torino, 105;No;Si
+eCampus;Veneto;Verona;Via Ugo Sesini, 18;No;Si
+eCampus;Veneto;Vicenza;Piazzale Bologna, 14;No;Si
+eCampus;Lazio;Viterbo;Viale Armando Diaz, 52/E;No;Si
+Mercatorum;Lazio;Roma;Piazza Mattei 10;Si;No
+Mercatorum;Campania;Agerola;Via Salvatore di Giacomo, 8 Agerola (Frazione San Lazzaro) Napoli;No;Si
+Mercatorum;Sicilia;Agrigento;Palazzo Borsellino, Via Atenea 15/19;No;Si
+Mercatorum;Piemonte;Alba;"Palazzo Mostre e Congressi ""Giacomo Morra"" - Piazza Medford, 3";No;Si
+Mercatorum;Piemonte;Alessandria;Camera di Commercio di Alessandria, Via Andrea Vochieri n. 58,;No;Si
+Mercatorum;Puglia;Andria;"C.F.O.P. ""Don Tonino Bello"" Via B. Buozzi, 3/a-b";No;Si
+Mercatorum;Marche;Ancona;Camera di Commercio delle Marche, Largo XXIV Maggio, 1;No;Si
+Mercatorum;Puglia;Bari;Via Amendola, 172/C - 70126 BARI K1 - 6° piano (c/o Executive Center);No;Si
+Mercatorum;Piemonte;Barolo;Castello Falletti, Via Collegio Barolo n.2,;No;Si
+Mercatorum;Lombardia;Bergamo;Azienda Speciale Bergamo Sviluppo - Via Zilioli 2;No;Si
+Mercatorum;Emilia Romagna;Bologna;Unioncamere Emilia Romagna - Viale Aldo Moro, 62;No;Si
+Mercatorum;Puglia;Bovino (Foggia);P.S.B. s.r.l., Comune di Bovino in Contrada Tiro a Segno, SNC;No;Si
+Mercatorum;Lombardia;Brescia;Centro di formazione OK SCHOOL ACADEMY, Via Arturo Reggio, 12;No;Si
+Mercatorum;Lombardia;Brescia;Brixia Forum presso ProBixia, Via Caprera, 5;No;Si
+Mercatorum;Puglia;Brindisi;Camera di Commercio di Brindisi - Via Bastioni Carlo V, 4;No;Si
+Mercatorum;Sicilia;Caltanissetta;Camera di Commercio I.A.A. Area supporto alle imprese, Corso Vittorio Emanuele, 38;No;Si
+Mercatorum;Molise;Campobasso;Camera di Commercio del Molise - Piazza della Vittoria, 1;No;Si
+Mercatorum;Campania;Capodrise;Centro Massaro, Via Retella SNC Capodrise (CE);No;Si
+Mercatorum;Campania;Caserta;Piazza S. Anna - Palazzo Era;No;Si
+Mercatorum;Sicilia;Catania;Camera di Commercio di Catania, Via Cappuccini, 2;No;Si
+Mercatorum;Calabria;Catanzaro;Camera di Commercio di Catanzaro, Via Menniti Ippolito Antonio, 16;No;Si
+Mercatorum;Sicilia;Cefalù;Sale della IDCT – International District for Congress and Training, Via Costa n. 63;No;Si
+Mercatorum;Abruzzo;Chieti;Camera di Commercio, Piazza Vico, 3;No;Si
+Mercatorum;Calabria;Cosenza;Camera di Commercio di Cosenza, Via Calabria, 33, 87100;No;Si
+Mercatorum;Calabria;Crotone;Camera di Commercio di Crotone - Via A. De Curtis, 2;No;Si
+Mercatorum;Piemonte;Cuneo;Camera di Commercio di Cuneo, Via Emanuele Filiberto, 3;No;Si
+Mercatorum;Lombardia;Curtatone (Mantova);Piazza Corte Spagnola, 4 (MN) - 46010 Curtatone;No;Si
+Mercatorum;Toscana;Firenze;Artex Centro per l'Artigianato Artistico e Tradizionale della Toscana, Via Giano della Bella 20;No;Si
+Mercatorum;Puglia;Foggia;Camera di Commercio di Foggia, Via Michele Protano, 7;No;Si
+Mercatorum;Toscana;Grosseto;Camera di Commercio Maremma e Tirreno sedi di Grosseto e Livorno - Via Fratelli Cairoli, 11;No;Si
+Mercatorum;Liguria;Imperia;Camera di Commercio di Imperia - Via T. Schiva, 29;No;Si
+Mercatorum;Abruzzo;L' Aquila;Agenzia per lo Sviluppo Azienda Speciale CCIAA L’Aquila - Via degli Opifici, 1 - Bazzano;No;Si
+Mercatorum;Calabria;Lamezia Terme;Fondazione San Tarcisio, Via Conforti, 144;No;Si
+Mercatorum;Lazio;Latina;Istituti Scolastici Paritari “Steve Jobs” - Via Piccarello, 2;No;Si
+Mercatorum;Puglia;Lecce;Camera di Commercio di Lecce, Viale Gallipoli, 39;No;Si
+Mercatorum;Sicilia;Messina;Camera di Commercio di Messina Piazza Felice Cavallotti n. 3;No;Si
+Mercatorum;Lombardia;Milano;Palazzo Durini - Via Santa Maria Valle, 2;No;Si
+Mercatorum;Toscana;Montecatini;COOP. SOC. Istituto San Giuseppe, Via Leoncavallo, 17;No;Si
+Mercatorum;Campania;Napoli;Camera di Commercio - Borsa Merci di Napoli - Corso Meridionale 58;No;Si
+Mercatorum;Campania;Padula (Salerno);Certosa di San Lorenzo, Viale Certosa;No;Si
+Mercatorum;Campania;Pagani (Salerno);Istituto suore Preziosissimo Sangue - Via San Francesco, 107;No;Si
+Mercatorum;Sicilia;Palermo;Confcommercio - Via E. Amari, 11;No;Si
+Mercatorum;Friuli Venezia Giulia;Pordenone;Camera di Commercio di Pordenone, Corso Vittorio Emanuele II, 47;No;Si
+Mercatorum;Sicilia;Ragusa;Camera di Commercio di Ragusa, Piazza Libertà, snc;No;Si
+Mercatorum;Calabria;Reggio Calabria;Confcommercio Reggio Calabria Via Zecca,5;No;Si
+Mercatorum;Lazio;Roma;Unioncamere - Piazza Sallustio, 21;No;Si
+Mercatorum;Campania;Santa Maria Capua Vetere;"Istituti scolastici Iervolino ""I Carissimi"", Via Antonio Tari, 49";No;Si
+Mercatorum;Sardegna;Sassari;Azienda Speciale Procamera, Via Predda Niedda, 18;No;Si
+Mercatorum;Sicilia;Siracusa;Camera di Commercio di Siracusa, Via Duca degli Abruzzi, 4;No;Si
+Mercatorum;Piemonte;Torino;Ascom Confcommercio - Via Andrea Massena 20;No;Si
+Mercatorum;Trentino Alto Adige;Trento;Università Popolare Trentina - Scuola delle Professioni per il Terziario - Via Prati 22;No;Si
+Mercatorum;Veneto;Treviso;Camera di Commercio di Treviso, Piazza Borsa, 3b;No;Si
+Mercatorum;Friuli Venezia Giulia;Udine;Camera di Commercio di Pordenone e Udine, Via Elio Morpurgo, 4;No;Si
+Mercatorum;Lombardia;Valtellina;Sale della Parrocchia di S.Stefano, Via Dante, Comune di Mazzo di Valtellina;No;Si
+Mercatorum;Lazio;Velletri;Palazzo Romani, Corso della Repubblica, 253;No;Si
+Mercatorum;Calabria;Vibo Valentia;Camera di Commercio di Vibo Valentia Piazza San Leoluca - Complesso Valentianum;No;Si
+Unipegaso;Sicilia;Acireale;Via Sclafani, 35 A/B;No;Si
+Unipegaso;Campania;Agerola;"Campus Principe di Napoli
+Via Salvatore Di Giacomo, 8";No;Si
+Unipegaso;Sicilia;Agrigento;Via Atenea, 15/19;No;Si
+Unipegaso;Piemonte;Alba;"Palazzo Mostre e Congressi ""Giacomo Morra""
+Piazza Medford, 3";No;Si
+Unipegaso;Piemonte;Alessandria;Via Vochieri, 58;No;Si
+Unipegaso;Puglia;Andria;Via Bruno Buozzi, 5/C;No;Si
+Unipegaso;Toscana;Arezzo;Via Leone Leoni, 1;No;Si
+Unipegaso;Campania;Ariano Irpino;"PSB
+Via Cardito, 203";No;Si
+Unipegaso;Umbria;Assisi;Via San Paolo, 36;No;Si
+Unipegaso;Campania;Avellino;"Collina Liguorini (angolo via S. Alfonso)
+Via dei Due Principati, 143";No;Si
+Unipegaso;Abruzzo;Avezzano;"Castello Orsini-Colonna
+Piazza Castello";No;Si
+Unipegaso;Piemonte;Barolo;"Castello Comunale Falletti di Barolo
+Via Collegio Barolo, 2";No;Si
+Unipegaso;Lombardia;Bergamo;"Collegio dei Geometri
+Via Bonomelli, 13";No;Si
+Unipegaso;Piemonte;Biella;"Lanificio Maurizio Sella
+Via Corradino Sella, 6";No;Si
+Unipegaso;Campania;Bisaccia;"Castello Ducale di Bisaccia
+Via P. Colletta";No;Si
+Unipegaso;Emilia-Romagna;Bologna;"Collegio San Luigi
+Via D'Azeglio";No;Si
+Unipegaso;Piemonte;Bra;"Palazzo Mathis
+Piazza Caduti per la Libertà, 20";No;Si
+Unipegaso;Lombardia;Brescia;"Congregazione dell'Oratorio di Brescia dei Padri della Pace
+Via Pace, 8/A";No;Si
+Unipegaso;Sardegna;Cagliari;"Confcommercio Sud Sardegna
+Via Santa Gilla, 6";No;Si
+Unipegaso;Sicilia;Caltagirone;"Palazzo Ceramico
+Via Abate Meli, 3";No;Si
+Unipegaso;Sicilia;Caltanissetta;"Banca di Credito Cooperativo del Nisseno
+Via Francesco Crispi, 21";No;Si
+Unipegaso;Molise;Campobasso;"Sede del Collegio Provinciale dei Geometri
+Via D'amato, 3L";No;Si
+Unipegaso;Sicilia;Campobello di Mazara;"Ex Chiesa Maria SS. Addolorata
+Via Addolorata, 1";No;Si
+Unipegaso;Abruzzo;Castel di Sangro;"Museo Civico Aufidenate
+Via Aufidenate, 2";No;Si
+Unipegaso;Calabria;Castrovillari;"Protoconvento Francescano
+Via San Francesco D'Assisi, 1";No;Si
+Unipegaso;Sicilia;Catania;"Palazzo Paternò del Toscano
+Via Etnea, 176";No;Si
+Unipegaso;Sicilia;"Cefalù";"Base Logistica Circolo Ufficiali Cefalù
+Piazza Cristoforo Colombo";No;Si
+Unipegaso;Puglia;Ceglie Messapica;"Castello Ducale
+Via Chiesa, 11, - 72013 - Ceglie Messapica";No;Si
+Unipegaso;Veneto;Conegliano;"Ex Convento S. Francesco
+Via Edmondo de Amicis";No;Si
+Unipegaso;Calabria;Cosenza;"Palazzo Passalacqua
+Corso Telesio, 16";No;Si
+Unipegaso;Lombardia;Cremona;"Università Popolare di Cremona
+Via Oscasali, 3";No;Si
+Unipegaso;Calabria;Crotone;Via Dante Alighieri, 9;No;Si
+Unipegaso;Toscana;Firenze;"Educatorio di Fuligno
+Via Faenza, 48";No;Si
+Unipegaso;Puglia;Foggia;Via Leone XIII , 165;No;Si
+Unipegaso;Lazio;Gaeta;"Palazzo De Vio
+Piazza Cardinale De Vio, 9";No;Si
+Unipegaso;Sicilia;Gela;"Palazzo Regina Margherita
+Corso Vittorio Emanuele, 197";No;Si
+Unipegaso;Liguria;Genova;"Palazzo Lercari Parodi
+Via Garibaldi, 3";No;Si
+Unipegaso;Campania;Giffoni Valle Piana;"Antica Ramiera
+Via Falcone e Borsellino, 2";No;Si
+Unipegaso;Campania;Giugliano in Campania;"Biblioteca Comunale
+Via Verdi";No;Si
+Unipegaso;Basilicata;Lagonegro;"Palazzo Corradi
+Piazza Bonaventura Lagonegro";No;Si
+Unipegaso;Calabria;Lamezia Terme;Via Mons. Vittorio Moietta, 7;No;Si
+Unipegaso;Lazio;Latina;"Istituti Scolastici Paritari Steve Jobs
+Via Piccarello, 2";No;Si
+Unipegaso;Puglia;Lecce;Viale Oronzo Quarta, 14;No;Si
+Unipegaso;Toscana;Livorno;Via Martin Luther King, 15;No;Si
+Unipegaso;Marche;Macerata;"Istituto Salesiano San Giuseppe
+Via Don Bosco, 53";No;Si
+Unipegaso;Campania;Maddaloni;"Museo Archeologico di Calatia
+Via Caudina, 353";No;Si
+Unipegaso;Basilicata;Matera;"Mediateca Prov.le A. Ribecco
+Piazza Vittorio Veneto";No;Si
+Unipegaso;Trentino-Alto Adige;Merano;"Palazzo Kurhaus
+Corso Libertà, 33";No;Si
+Unipegaso;Sicilia;Messina;Corso Cavour, 79;No;Si
+Unipegaso;Lombardia;Milano;"Palazzo Durini
+Via Santa Maria Valle";No;Si
+Unipegaso;Toscana;Montepulciano;"Palazzo del Capitano - II Piano
+Piazza Grande, 7";No;Si
+Unipegaso;Campania;Napoli;"Complesso Museale di Santa Chiara
+Via Santa Chiara, 49/c";No;Si
+Unipegaso;Campania;Napoli;"Complesso Monumentale di Santa Maria La Nova
+Piazza S. Maria la Nova, 44";No;Si
+Unipegaso;Sardegna;Olbia;"Scuola Civica di Musica
+Via Porto Romano, 8";No;Si
+Unipegaso;Veneto;Padova;"Palazzo San Bonifacio
+Via del Santo, 30";No;Si
+Unipegaso;Campania;Padula;"Certosa di Padula
+Viale Certosa";No;Si
+Unipegaso;Sicilia;Palagonia;Piazza Municipio, 1;No;Si
+Unipegaso;Sicilia;Palermo;"Palazzo Mazzarino
+Via Maqueda, 383";No;Si
+Unipegaso;Emilia-Romagna;Parma;"Circolo della Lettura
+Strada Macedonio Melloni, 4";No;Si
+Unipegaso;Lombardia;Pavia;"Confartigianato Pavia
+Viale Cesare Battisti, 76";No;Si
+Unipegaso;Abruzzo;Pescara;"Aurum di Pescara - La Fabbrica delle Idee
+Largo Gardone Riviera";No;Si
+Unipegaso;Sicilia;Piazza Armerina (Enna);Via la Bella, 3;No;Si
+Unipegaso;Toscana;Pisa;"Palazzo Quaratesi
+Via Santa Maria, 25";No;Si
+Unipegaso;Basilicata;Policoro;"Biblioteca Comunale
+Piazza Eraclea, 1";No;Si
+Unipegaso;Basilicata;Potenza;"Provincia Ecclesiastica
+Viale Marconi";No;Si
+Unipegaso;Toscana;Prato;Via Fabbroni, 3/9;No;Si
+Unipegaso;Sicilia;Ragusa;"Fondazione ANMIG
+Piazza Libertà, 1";No;Si
+Unipegaso;Calabria;Reggio Calabria;"Sede Reggio Calabria
+Via De Nava, 140";No;Si
+Unipegaso;Emilia-Romagna;Rimini;"Palazzo della Diocesi di Rimini
+Via IV Novembre, 35";No;Si
+Unipegaso;Lazio;Roma;"Palazzo Falletti
+Via Panisperna, 207";No;Si
+Unipegaso;Calabria;Rossano;"Palazzo De Rosis
+Corso Garibaldi, 154";No;Si
+Unipegaso;Campania;Salerno;"Istituto Salesiano Don Bosco
+Via San Domenico Savio, 4";No;Si
+Unipegaso;Campania;Salerno;"Palazzo Centola
+Piazza Umberto I, 2";No;Si
+Unipegaso;Marche;San Benedetto del Tronto;"Galleria Calabresi
+Viale Cristoforo Colombo, 6";No;Si
+Unipegaso;Campania;San Leucio (Caserta);Belvedere di San Leucio;No;Si
+Unipegaso;Sicilia;Sant'Agata di Militello;"Palazzo Agorà
+Via Medici, 189";No;Si
+Unipegaso;Campania;Santa Maria Capua Vetere;"Istituti scolastici Iervolino
+Via Tari, 49";No;Si
+Unipegaso;Sicilia;Siracusa;Via Alcibiade, 33;No;Si
+Unipegaso;Campania;Somma Vesuviana;"Convento dei Padri Trinitari
+Via Filippo D'Aragona, 3";No;Si
+Unipegaso;Puglia;Taranto;"Palazzo Galeota
+Via Duomo, 234";No;Si
+Unipegaso;Umbria;Terni - Collescipoli;"Palazzo Catucci
+Piazza Risorgimento, 1";No;Si
+Unipegaso;Piemonte;Torino;"Palazzo di San Martino di San Germano
+Piazza Castello, 99";No;Si
+Unipegaso;Sicilia;Trapani;"Palazzo Platamone
+Viale Regina Margherita, 31";No;Si
+Unipegaso;Friuli-Venezia Giulia;Trieste;Via Armando Diaz,16;No;Si
+Unipegaso;Campania;Vallo della Lucania;"Ex Convento Domenicani - Polo Tecnologico Universitario
+Via E. Nicodemo, 2 - 84078 - Vallo della Lucania";No;Si
+Unipegaso;Lombardia;Varese;"Sede UPEL
+Via Como, 40";No;Si
+Unipegaso;Lazio;Velletri;"Palazzo Romani
+Corso della Repubblica, 253";No;Si
+Unipegaso;Veneto;Venezia;"Palazzo Cornoldi
+Riva degli Schiavoni - Castello";No;Si
+Unipegaso;Veneto;Verona;"Palazzo Paletta Dai Prè
+Via Arcidiacono Pacifico, 6";No;Si
+Unipegaso;Calabria;Vibo Valentia;"Kernel SRL
+Zona industriale";No;Si
+Unipegaso;Veneto;Vicenza;Strada Casale, 175 - 36100 - Vicenza;No;Si
+Unipegaso;Campania;Napoli;Centro Direzionale Isola F2 - 80143 - Napoli;Si;No
+Unicusano;Lazio;Roma;Via Don Carlo Gnocchi, 3;Si;No
+Unicusano;Piemonte;Mondovì (CN);Piazza Ellero, 2;No;Si
+Unicusano;Piemonte;Torino;Via Ottovio Revel, 20;No;Si
+Unicusano;Lombardia;Brescia;Via Sostegno, 30/a;No;Si
+Unicusano;Lombardia;Germignaga (VA);Via Cadorna, 47;No;Si
+Unicusano;Lombardia;Milano;Via Bergamo, 11;No;Si
+Unicusano;Lombardia;Milano;Via degli Artigianelli 10;No;Si
+Unicusano;Lombardia;Seregno (MB);Via Cesare Formenti, 7;No;Si
+Unicusano;Lombardia;Treviglio (BG);Viale Cesare Battisti, 15;No;Si
+Unicusano;Friuli Venezia Giulia;Trieste;Via Fabio Severo, 14/b;No;Si
+Unicusano;Friuli Venezia Giulia;Udine;Via Cavour, 7;No;Si
+Unicusano;Veneto;Feltre (BL);Piazzetta Beato Bernardino Tomitano, 1;No;Si
+Unicusano;Veneto;Padova;Corso del Popolo, 16;No;Si
+Unicusano;Veneto;Romano d'Ezzelino (VI);Via Ca' Cornaro, 9;No;Si
+Unicusano;Veneto;Treviso;Strada Castellana, 86/A;No;Si
+Unicusano;Veneto;Verona;Corso Porta Nuova, 39;No;Si
+Unicusano;Liguria;Arma di Taggia (IM);Via Stazione,6 - 18018;No;Si
+Unicusano;Liguria;Genova;Via Domenico Fiasella, 10/1;No;Si
+Unicusano;Liguria;La Spezia;Via don Giovanni Minzoni, 5;No;Si
+Unicusano;Emilia Romagna;Bologna;Via Dei Fornaciai, 29/B;No;Si
+Unicusano;Emilia Romagna;Parma;Strada del taglio, 9/A;No;Si
+Unicusano;Toscana;Firenze;Viale Milton, 71;No;Si
+Unicusano;Toscana;Pontremoli (MS);P.zza Italia, 2;No;Si
+Unicusano;Umbria;Perugia;Via Settevalli, 324;No;Si
+Unicusano;Marche;Chiaravalle (AN);Via F.lli Cairoli, 64;No;Si
+Unicusano;Abruzzo;Pescara;Corso V. Emanuele II, 36;No;Si
+Unicusano;Molise;Campobasso;Via Conte Verde, 1;No;Si
+Unicusano;Campania;Napoli;Piazzetta Matilde Serao, 40;No;Si
+Unicusano;Campania;Salerno;Via dei Principati;No;Si
+Unicusano;Campania;Santa Maria Capua Vetere (CE);Via Galatina, 209;No;Si
+Unicusano;Campania;Aversa;via Mantegna, 54 Carinaro (CE);No;Si
+Unicusano;Campania;Battipaglia (SA);Via Rosa Jemma, 2 Palazzina B, interno 15 c/o Centro Direzionale Pastena;No;Si
+Unicusano;Campania;Benevento;Piazza Scarlatti, 8-9 - 82018 San Giorgio del Sannio (BN);No;Si
+Unicusano;Campania;Caserta;Via Arenella 98/100;No;Si
+Unicusano;Campania;Giugliano in Campania (NA);Via G.D'Annunzio, 19;No;Si
+Unicusano;Campania;Pagani (SA);Via G. Torre, 35;No;Si
+Unicusano;Campania;Roccadaspide (SA);Via G. Giuliani, 145;No;Si
+Unicusano;Campania;Salerno;Via Luigi Guercio, 353;No;Si
+Unicusano;Campania;Sapri (SA);Via Camerelle, 35;No;Si
+Unicusano;Lazio;Colleferro (RM);Via Artigianato, 2/A;No;Si
+Unicusano;Lazio;Fondi (LT);Via dei Colonna, 13/15/17/19;No;Si
+Unicusano;Lazio;Frosinone;Via Marco Tullio Cicerone, 129;No;Si
+Unicusano;Lazio;Guidonia Montecelio (RM);Via Mario Calderara, 6;No;Si
+Unicusano;Lazio;Latina;Viale Le Corbusier, snc;No;Si
+Unicusano;Lazio;Ostia (RM);Via Luporini, 34;No;Si
+Unicusano;Lazio;Sora (FR);Piazza Santa Restituta;No;Si
+Unicusano;Puglia;Bari;Via D. Nicolai, 75/a;No;Si
+Unicusano;Puglia;Carmiano (LE);via San Francesco, 12;No;Si
+Unicusano;Puglia;Foggia;Via Piave, 34;No;Si
+Unicusano;Puglia;Latiano (BR);Via Garibaldi, 72;No;Si
+Unicusano;Puglia;Taranto;Viale Virgilio, 20/f;No;Si
+Unicusano;Puglia;Trani;Via P. Badoglio, 22;No;Si
+Unicusano;Basilicata;Matera;Via Bramante, 10;No;Si
+Unicusano;Basilicata;Potenza;Via di Giura, 54;No;Si
+Unicusano;Calabria;Catanzaro;Corso Mazzini, 90;No;Si
+Unicusano;Calabria;Cosenza;Piazza 11 Settembre (Via Calabria, 16);No;Si
+Unicusano;Calabria;Crotone;Via Matilde Serao, 15 bis;No;Si
+Unicusano;Calabria;Lamezia Terme (CZ);Via T.M. Fusco;No;Si
+Unicusano;Calabria;Palmi (RC);Via Antonio Altomonte, 32;No;Si
+Unicusano;Calabria;Reggio Calabria;Via Palestino, 2;No;Si
+Unicusano;Calabria;Siderno (RC);Corso G. Garibaldi, lato nord;No;Si
+Unicusano;Calabria;Vibo Valentia;Viale Alcide De Gasperi, 13;No;Si
+Unicusano;Sicilia;Agrigento;Via Mazzini, 82/84;No;Si
+Unicusano;Sicilia;Caltanissetta;via Leone XIII, 1H/1L;No;Si
+Unicusano;Sicilia;Carini (PA);Via Roma, 41;No;Si
+Unicusano;Sicilia;Castelvetrano (TP);Via Caduti di Nassirya, snc;No;Si
+Unicusano;Sicilia;Catania;Via trieste, 25;No;Si
+Unicusano;Sicilia;Gela (CL);Via Venezia 369;No;Si
+Unicusano;Sicilia;Palermo;Via Roma, 457;No;Si
+Unicusano;Sicilia;Ragusa;Viale delle Americhe, 141-143-145;No;Si
+Unicusano;Sicilia;Siracusa;Viale Teracati, 51/F;No;Si
+Unicusano;Sicilia;Trapani;Via I Dorsale Z.I.R, 3;No;Si
+Unicusano;Sicilia;Vittoria (RG);Via Firenze 8;No;Si
+Unicusano;Sardegna;Cagliari;Via Carbonia, 12;No;Si
+Uninettuno;Lazio;Roma;Corso Vittorio Emanuele II, 39;No;Si
+Uninettuno;Campania;Avellino;c/o presso ISA – CNR, Via Roma 64;No;Si
+Uninettuno;Lombardia;Bergamo;c/o Fondazione ITS Nuove Tecnologie per il made in Italy (Polo riservato ai soli studenti dell’ITS) Via del Convento snc, San Paolo D’Argon;No;Si
+Uninettuno;Emilia Romagna;Bologna;Via Ugo Bassi, 7 Bologna;No;Si
+Uninettuno;Sicilia;Canicattì (AG);c/o Centro Studi TonioloVia Pirandello 127/B,;No;Si
+Uninettuno;Sicilia;Catania;"c/o Liceo Statale ""G. Lombardo Radice""Via Imperia n. 21,";No;Si
+Uninettuno;Calabria;Catanzaro;c/o Arcidiocesi di Catanzaro Via XX Settembre 57;No;Si
+Uninettuno;Lazio;Cisterna di Latina LT;Piazza XIX Marzo, Palazzo Caetani;No;Si
+Uninettuno;Calabria;Cosenza;c/o Gruppo SolutioVia Galliano 4/D;No;Si
+Uninettuno;Marche;Fermo;c/o Associazione PTA (Collegio Periti Industriali Provincia Ascoli Piceno e Fermo)Via Sant’Alessandro 3;No;Si
+Uninettuno;Toscana;Grosseto;Via De’ Barberi snc;No;Si
+Uninettuno;Liguria;La Spezia;Via Aulo Flacco Persio 37;No;Si
+Uninettuno;Abruzzo;Lanciano (CH);c/o Consorzio Universitario di Lanciano Corso Trento e Trieste 72;No;Si
+Uninettuno;Calabria;Locri (RC);Via Trieste, c/o Palazzo della Cultura di Locri;No;Si
+Uninettuno;Toscana;Lucca;c/o Centro Culturale Athena Via San Micheletto 8, angolo Via Elisa;No;Si
+Uninettuno;Lombardia;Milano;c/o Università IULM MilanoVia Carlo Bo 1;No;Si
+Uninettuno;Lombardia;Milano;c/o AFOL Metropolitana Via Soderini 24;No;Si
+Uninettuno;Campania;Napoli;c/o Università Federico II Napoli (Servizio di Orientamento Formazione e Teledidattica) Via Claudio 21;No;Si
+Uninettuno;Sardegna;Olbia;c/o Collegio Provinciale Geometri e Geometri Laureati di Sassaric/o ITCG Attilio Deffenu – OlbiaVia Vicenza 63,;No;Si
+Uninettuno;Veneto;Padova;c/o ConfServizi VenetoVia della Croce Rossa 62;No;Si
+Uninettuno;Sicilia;Palermo;c/o Fondazione Sicilia - Palazzo BranciforteVia Bara dell'Olivella 2;No;Si
+Uninettuno;Basilicata;Pisticci;Via Mattei, Mediateca Pisticci Scalo;No;Si
+Uninettuno;Puglia;Fasano (BR);c/o Gruppo FortisC.da Sant’Angelo, Z.I. SUD;No;Si
+Uninettuno;Calabria;Reggio Calabria;Via Missori, 7;No;Si
+Uninettuno;Lazio;Roma;c/o Università degli studi “Roma Tre”Via Ostiense 159;No;Si
+Uninettuno;Sardegna;Sant'Anna Arresi (CA);c/o il Comune di Sant'Anna Arresi Piazza Aldo Moro 1,;No;Si
+Uninettuno;Emilia Romagna;Coriano (RN);c/o Comunità San Patrignano ONLUSVia San Patrignano 53;No;Si
+Uninettuno;Toscana;Siena;c/o Collegio Provinciale Geometri e Geometri Laureati di SienaVia della Arti 6;No;Si
+Uninettuno;Umbria;Perugia;c/o IIS Ciuffelli-EinaudiViale Montecristo 3, Todi;No;Si
+Uninettuno;Piemonte;Torino;c/o il Politecnico di TorinoCorso Duca degli Abruzzi 24;No;Si
+Uninettuno;Toscana;Viareggio (LU);c/o la Misericordia di ViareggioVia F. Cavallotti 72,;No;Si
+Uninettuno;Calabria;Vibo Valentia;c/o il Sistema Bibliotecario Vibonese - Sede di Santa ChiaraVia Ruggero il Normanno;No;Si
+IUL;Toscana;Firenze;Via M. Buonarroti 10;Si;No
+IUL;Sardegna;Elmas (CA);Via Eligio Perucca 1;No;Si
+IUL;Sardegna;Nuoro;Via della Resistenza 71;No;Si
+IUL;Sardegna;Sassari;Via G. Prati 22;No;Si
+IUL;Sardegna;Olbia;Via Galvani, 64;No;Si
+IUL;Sardegna;Oristano;Via Cagliari 24;No;Si
+IUL;Sardegna;Ozieri (SS);Via Giusti 1;No;Si
+IUL;Sicilia;Santa Venerina (CT);Via Aldo Moro (c/o IC Santa Venerina);No;Si
+IUL;Sicilia;Palermo;Via Tembien, 1 (c/o IC M. Buonarroti);No;Si
+IUL;Sicilia;Palermo;Via Sammartino, 95;No;Si
+IUL;Sicilia;Palermo;Via Filippo Parlatore, 22;No;Si
+IUL;Sicilia;Catania;Corso Sicilia 64/A;No;Si
+IUL;Calabria;Reggio Calabria;Corso Garibaldi 106;No;Si
+IUL;Calabria;Vibo Valentia;Corso Vittorio Emanuele III, 123;No;Si
+IUL;Basilicata;Potenza;Via Anzio 36;No;Si
+IUL;Puglia;Lecce;Via Michele De Pietro, 14 (c/o Liceo Scientifico C. De Giorgi);No;Si
+IUL;Puglia;Copertino (LE);Via Regina Isabella (c/o IC “magistrato G. Falcone”);No;Si
+IUL;Puglia;Foggia;Piazza Santa Chiara, 9;No;Si
+IUL;Campania;Napoli;Via Guglielmo Melisurgo, 4;No;Si
+IUL;Campania;Avellino;Via dei Concilii, 1/A (c/o ITE Luigi Amabile);No;Si
+IUL;Campania;Salerno;Via Antonio Amato 20/22;No;Si
+IUL;Campania;Mercato San Severino;Via Vincenzo Alfano 35;No;Si
+IUL;Lazio;Roma;Via Guidubaldo del Monte, 54;No;Si
+IUL;Lazio;Roma;Via Conca d’Oro, 221;No;Si
+IUL;Lazio;Cassino (FR);Via G. Rossini 69;No;Si
+IUL;Marche;Ancona;Via Valle Miano, 41 ab;No;Si
+IUL;Toscana;Firenze;Via Cittadella 29;No;Si
+IUL;Toscana;Chiusi (SI);Biblioteca Comunale, Piazza Vittorio Veneto 6;No;Si
+IUL;Veneto;Venezia – Mestre Zelarino;Via Visinoni, 4/C (c/o FISM Veneto, Centro Cardinal Urbani);No;Si
+IUL;Lombardia;Milano;Viale Sarca 336/f, Edificio 16, Scala H (c/o Consorzio Farsi Prossimo);No;Si
+IUL;Liguria;Genova;Via Imperiale, 41 (c/o Associazione Consulta diocesana);No;Si
+IUL;Piemonte;Torino;Corso Vittorio Emanuele II, 70;No;Si
+San Raffaele;Abruzzo;Sulmona (AQ);Via Silvestro di Giacomo, 22, c/o Istituto Mazara;No;Si
+San Raffaele;Sicilia;Acireale (CT);Corso Umberto, 188;No;Si
+San Raffaele;Lombardia;Milano;Via F. Daverio, 7;No;Si
+San Raffaele;Lazio;Roma;Via di Val Cannuta, 247;Si;No
+Unidav;Abruzzo;Torrevecchia Teatina (CH);Piazza San Rocco, 2;Si;No
+Unifortunato;Campania;Benevento;Viale Raffaele Delcogliano, 12;Si;No
+Unifortunato;Lombardia;Milano;Galleria del Corso, 2;No;Si
+Unifortunato;Lazio;Roma;Via XX settembre 68/B;No;Si
+Unifortunato;Sicilia;Palermo;Via Enrico Parisi 5;No;Si
+Unifortunato;Sicilia;Tremestieri Etneo (CT);Largo Pitagora;No;Si
+Unitelma;Lazio;Roma;Viale Regina Elena 295 (3° piano);Si;No

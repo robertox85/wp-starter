@@ -1,0 +1,59 @@
+.modulo-6 .equal {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modulo-6.bianco {
+  background-color: #fff;
+}
+
+.modulo-6 h1 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: rem(40px);
+  line-height: rem(48px);
+  color: #00a8aa;
+}
+
+.modulo-6 .box {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.modulo-6 .box:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.modulo-6 .box:hover a {
+  text-decoration: none;
+}
+
+.modulo-6 .box .box-inner.turchese {
+  background-color: #00a8aa;
+}
+
+.modulo-6 .box .box-inner.turchese h2,
+.modulo-6 .box .box-inner.turchese p {
+  color: #fff;
+}
+
+.modulo-6 .box .box-inner.grigio {
+  background-color: #303133;
+}
+
+.modulo-6 .box .box-inner h2 {
+  font-weight: 900;
+  font-style: italic;
+  font-size: rem(24px);
+  line-height: 1.2;
+  color: #00a8aa;
+}
+
+.modulo-6 .box .box-inner p {
+  color: #fff;
+  font-size: rem(18px);
+  font-style: normal;
+  line-height: 1.75;
+}

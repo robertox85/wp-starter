@@ -1,0 +1,57 @@
+.modulo-4 .accordion {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.modulo-4 .accordion a {
+  display: block;
+  color: inherit;
+  position: relative;
+  padding: rem(18px) rem(20px) rem(18px) 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: rem(16px);
+  font-weight: 900 !important;
+  letter-spacing: 0.1em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.modulo-4 .accordion a i {
+  position: absolute;
+  right: 0;
+}
+
+.modulo-4 .accordion a:hover {
+  color: #00a8aa;
+}
+
+.modulo-4 .accordion div.collapse:before {
+  content: "";
+  position: relative;
+  display: block;
+  width: 100%;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.modulo-4 .accordion .accordion-body {
+  padding: 27px 0px 27px 0px;
+}
+
+.modulo-4 .accordion .accordion-body p {
+  font-size: rem(18px);
+}
+
+.modulo-4 .accordion a[aria-expanded="true"] {
+  color: #00a8aa;
+}
+
+.modulo-4 .accordion a[aria-expanded="true"] i {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}

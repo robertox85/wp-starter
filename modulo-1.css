@@ -1,0 +1,127 @@
+.modulo-1 {
+  background-color: #000;
+}
+
+@media screen and (min-width: 992px) {
+  .modulo-1 {
+    padding: rem(50px) rem(36px);
+  }
+}
+
+.modulo-1.box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  position: relative;
+  font-size: rem(18px);
+}
+
+@media screen and (min-width: 992px) {
+  .modulo-1.box-container {
+    min-height: 30rem;
+  }
+}
+
+.modulo-1.box-container h1,
+.modulo-1.box-container h2,
+.modulo-1.box-container h3,
+.modulo-1.box-container h4,
+.modulo-1.box-container h5,
+.modulo-1.box-container h6 {
+  font-weight: 900;
+  font-style: italic;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  font-size: rem(29px);
+  line-height: 1.2;
+}
+
+.modulo-1.box-container h1:after,
+.modulo-1.box-container h2:after,
+.modulo-1.box-container h3:after,
+.modulo-1.box-container h4:after,
+.modulo-1.box-container h5:after,
+.modulo-1.box-container h6:after {
+  content: '';
+  height: 5px;
+  position: absolute;
+  width: 100%;
+  background-color: #000000;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+
+.modulo-1.box-container .box {
+  padding: rem(36px);
+}
+
+@media screen and (min-width: 992px) {
+  .modulo-1.box-container .box > h2 {
+    padding: rem(50px) 0;
+  }
+}
+
+.modulo-1.box-container .box h1 {
+  font-size: rem(29px);
+  letter-spacing: rem(-0.32px);
+  color: #fff;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.modulo-1.box-container .box p {
+  font-size: rem(18px);
+}
+
+.modulo-1.box-container .box a {
+  color: var(--primary--light);
+}
+
+.modulo-1.box-container .box.default {
+  background-color: var(--primary--light);
+  opacity: .5;
+  color: #fff;
+}
+
+.modulo-1.box-container .box.default h1,
+.modulo-1.box-container .box.default h2,
+.modulo-1.box-container .box.default h3,
+.modulo-1.box-container .box.default h4,
+.modulo-1.box-container .box.default h5,
+.modulo-1.box-container .box.default h6 {
+  color: #fff;
+}
+
+.modulo-1.box-container .box.default h1:after,
+.modulo-1.box-container .box.default h2:after,
+.modulo-1.box-container .box.default h3:after,
+.modulo-1.box-container .box.default h4:after,
+.modulo-1.box-container .box.default h5:after,
+.modulo-1.box-container .box.default h6:after {
+  background-color: #000000;
+}
+
+@media screen and (max-width: 992px) {
+  .modulo-1.box-container .box {
+    width: 100%;
+  }
+  .modulo-1.box-container h1 {
+    font-size: rem(24px) !important;
+  }
+  .modulo-1.box-container p {
+    font-size: rem(16px);
+  }
+}
