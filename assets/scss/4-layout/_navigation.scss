@@ -1,20 +1,18 @@
-@import '../2-tools/bootstrap/scss/mixins/breakpoints';
-
-// .navbar {
-//     position: relative;
-//     .navbar-toggler{
-//         &:focus{
-//             outline: 0;
-//         }
-//     }
-// }
-// .sticky {
-//     position: fixed;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     z-index: 100;
-// }
+.navbar {
+    position: relative;
+    .navbar-toggler{
+        &:focus{
+            outline: 0;
+        }
+    }
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
 
 
 #v1,

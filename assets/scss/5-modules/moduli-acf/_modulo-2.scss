@@ -1,0 +1,86 @@
+.modulo-2 {
+    img.immagine {
+        width: 400px;
+        margin: 0 auto;
+    }
+    .box-img {
+        padding: 100px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .image-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+    }
+    
+    h2{
+        position: relative;
+        font-weight: 900;
+        font-style: italic;
+        font-size: rem(29px);
+        &:after {
+            content: '';
+            height: 5px;
+            position: absolute;
+            width: 100%;
+            background-color: #000000;
+            left: 0;
+            bottom: 0;
+            display: block;
+        }
+    }
+    &.immagine,
+    &.immagine_2 {
+        h2{
+            color: #fff;
+            position: relative;
+            &:after {
+                content: '';
+                height: 5px;
+                position: absolute;
+                width: 100%;
+                background-color: var(--primary);
+                left: 0;
+                bottom: 0;
+                display: block;
+            }
+        }
+    }
+    &.default {
+        background-color: var(--primary--light);
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            color: #fff
+        }
+        
+        h2
+         {
+            position: relative;
+            &:after {
+                background-color: var(--primary);
+            }
+        }
+    }
+    
+    p {
+        
+        font-weight: normal;
+        font-style: italic;
+        font-size: rem(18px);
+    }
+    @media screen and (max-width:992px) {
+        h1 {
+            font-size: rem(24px);
+        }
+        p {
+            font-size: rem(16px);
+        }
+    }
+}

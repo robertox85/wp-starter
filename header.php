@@ -37,5 +37,5 @@
 	
 	<?php starter_get_template_version('header'); ?>
 
-	<main id="swup" class="site-content container-fluid transition-fade">
+	<main id="swup" class="site-content container-fluid transition-fade px-0">
 	

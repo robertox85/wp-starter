@@ -102,13 +102,13 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
     'starter_header_top_menu_activate_control',
     array(
-    'label'    => esc_html_e('Attivare top menu', 'starter'),
-    'section'  => 'starter_header_top_menu',
-    'settings' => 'starter_header_top_menu_activate',
-    'type'     => 'checkbox',
-    'choices'  => array(
-            'yes' => esc_html_e('Si', 'starter'),
-    ),
+        'label'    => esc_html_e('Attivare top menu', 'starter'),
+        'section'  => 'starter_header_top_menu',
+        'settings' => 'starter_header_top_menu_activate',
+        'type'     => 'checkbox',
+        'choices'  => array(
+                'yes' => esc_html_e('Si', 'starter'),
+        ),
     )
 );
 

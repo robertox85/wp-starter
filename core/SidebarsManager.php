@@ -114,6 +114,17 @@ Class SidebarsManager
                 'before_title'  => '<h4 class="color__standard-white col-12 px-0">',
                 'after_title'   => '</h4>',
             );
+
+            $footer_widget_copy = array(
+                'name'          => __('Footer widget Copy', 'starter'),
+                'id'            => 'footer_widget_copy',
+                'description'   => 'Attivo su tutti i footer.',
+                'class'         => '',
+                'before_widget' => '',
+                'after_widget'  => '',
+                'before_title'  => '<h4 class="color__standard-white col-12 px-0">',
+                'after_title'   => '</h4>',
+            );
     
             register_sidebar($sidebar1);
             register_sidebar($sidebar2);
@@ -124,6 +135,7 @@ Class SidebarsManager
             register_sidebar($footer_widget_2);
             register_sidebar($footer_widget_3);
             register_sidebar($footer_widget_4);
+            register_sidebar($footer_widget_copy);
             
         }
     }

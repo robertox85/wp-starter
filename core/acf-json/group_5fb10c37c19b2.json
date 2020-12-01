@@ -16,7 +16,7 @@
                 "id": ""
             },
             "choices": {
-                "posts": "Posts",
+                "post": "Posts",
                 "page": "Page",
                 "eventi": "Eventi"
             },
@@ -131,7 +131,7 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
-    "active": true,
+    "active": false,
     "description": "",
-    "modified": 1605451679
+    "modified": 1605548695
 }

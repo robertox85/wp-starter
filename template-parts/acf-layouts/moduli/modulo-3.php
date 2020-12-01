@@ -1,5 +1,5 @@
 <?php if (get_row_layout() == 'modulo_3'): ?>
-<div class="modulo-3 container-fluid box-container py-md-5 mt-5 mt-md-0">
+<div class="modulo modulo-3 container-fluid box-container py-md-5 mt-5 mt-md-0">
 	<div class="row no-gutters equal">
 		<div class="col-lg-4 box-1 p-3 p-md-5">
 			<?php if ( have_rows( 'colonna_1' ) ) : ?>

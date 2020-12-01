@@ -1,0 +1,97 @@
+.modulo-1 {
+    background-color: #000;
+    @media screen and (min-width: 992px) {
+        padding: rem(50px) rem(36px);
+    }
+    &.box-container {
+        @media screen and (min-width: 992px) {
+            min-height: 30rem;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+        position: relative;
+        
+        font-size: rem(18px);
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 900;
+            font-style: italic;
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            font-size: rem(29px);
+            line-height: 1.2;
+            &:after {
+                content: '';
+                height: 5px;
+                position: absolute;
+                width: 100%;
+                background-color: #000000;
+                left: 0;
+                bottom: 0;
+                display: block;
+            }
+        }
+        .box {
+            padding: rem(36px);
+            @media screen and (min-width: 992px) {
+                > h2 {
+                    padding: rem(50px) 0;
+                }
+            }
+            h1 {
+                font-size: rem(29px);
+                letter-spacing: rem(-0.32px);
+                color: #fff;
+                font-weight: 900;
+                font-style: italic;
+            }
+            p {
+                font-size: rem(18px);
+            }
+            a {
+                color:  var(--primary--light);
+                
+            }
+            
+            &.default {
+                background-color: var(--primary--light);
+                background-color: rgba($color: $primary--light, $alpha: .65);
+                
+                color: #fff;
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                    color: #fff;
+                    &:after {
+                        background-color: #000000;
+                    }
+                }
+            }
+            
+        }
+        @media screen and (max-width:992px) {
+            .box {
+                width: 100%;
+            }
+            h1 {
+                font-size: rem(24px);
+            }
+            p {
+                font-size: rem(16px);
+            }
+        }
+    }
+}

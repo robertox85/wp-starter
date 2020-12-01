@@ -135,3 +135,37 @@ function add_image_responsive_class($content)
     $content = preg_replace($pattern, $replacement, $content);
     return $content;
 }
+
+add_filter( 'timber/context', 'add_to_context' );
+
+function add_to_context( $context ) {
+    // So here you are adding data to Timber's context object, i.e...
+    $context['foo'] = 'I am some other typical value set in your functions.php file, unrelated to the menu';
+
+    $menus = get_terms( 'nav_menu' );
+    $menus = array_combine( wp_list_pluck( $menus, 'term_id' ), wp_list_pluck( $menus, 'slug' ) );
+
+    // Now, in similar fashion, you add a Timber Menu and send it along to the context.
+    foreach($menus as $menu){
+        $context[$menu] = new \Timber\Menu( $menu );    
+    }
+    
+
+    return $context;
+}
+
+function isacustom_excerpt_length( $length ) {
+	global $post;
+	if ( $post->post_type === 'post' ) {
+		return 14;
+	}
+
+	return 14;
+}
+
+add_filter( 'excerpt_length', 'isacustom_excerpt_length', 100 );
+
+function stampa_mappa($address, $width = '500', $height = '440')
+{
+    return '<iframe width="' . $width . '" height="' . $height . '" frameborder="0" src="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=' . str_replace(",", "", str_replace(" ", "+", $address)) . '&z=14&output=embed"></iframe>';
+}

@@ -1,10 +1,15 @@
 {% if menu %}
-	<ul>
-	{% for item in items %}
-		<li class="{{ item.classes | join(' ') }}">
-			<a target="{{ item.target }}" href="{{ item.link }}">{{ item.title }}</a>
-			{% include "menu.twig" with {'items': item.children} %}
-		</li>
-	{% endfor %}
+	{% set class = (item.children) ? 'dropdown-menu' : 'navbar-nav ml-xl-5 mr-auto order-2 order-xl-1' %}
+	{% set id    = (item.children) ? '' : 'menu-primary' %}
+	<ul id="{{id}}" class="{{class}}" itemscope="" itemtype="http://www.schema.org/SiteNavigationElement">
+		{% for item in items %}
+			{% set class = (item.children) ? 'dropdown' : '' %}
+			<li class="{{ item.classes | join(' ') }} {{class}} menu-item nav-item">
+				{% set dropdown  = (item.children) ? 'dropdown-toggle': '' %}
+				{% set attribute = (item.children) ? 'data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"' : '' %}
+				<a class="nav-link {{dropdown}}" target="{{ item.target }}" href="{{ item.link }}" {{attribute}}>{{ item.title }}</a>
+				{% include "menu.twig" with {'items': item.children} %}
+			</li>
+		{% endfor %}
 	</ul>
 {% endif %}

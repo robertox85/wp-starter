@@ -1,3 +1,7 @@
 .equal {
     justify-content: center;
 }
+
+p:empty {
+    display: none;
+}

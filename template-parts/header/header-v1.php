@@ -7,13 +7,15 @@
  * @package    WordPress
  */
 
+
+$topmenu = Kirki::get_option( 'starter_theme', 'topmenu_toggle_setting' );
 ?>
 <header id="v1" class="masthead">
     <div class="masthead--container">
 
-        <?php if ( get_theme_mod( 'starter_header_top_menu_activate' ) === 'yes' ) : ?>
+        <?php if ( $topmenu == '1' ) : ?>
         <?php
-			$top_menu_container_class = ( get_theme_mod( 'starter_header_top_menu_container' ) === 'yes' ) ? 'container' : '';
+			$top_menu_container_class = ( get_theme_mod( 'topmenu_container_toggle_setting' ) == '1' ) ? 'container-fluid' : 'container';
 			if ( has_nav_menu( 'social' ) ) {
 				wp_nav_menu(
 					array(

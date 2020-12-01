@@ -276,6 +276,7 @@ function removeBasePathFromArray( $array ) {
 	}
 	return $arr;
 }
+
 function starter_get_included_modules() {
 	$included_files = get_included_files();
 	$stylesheet_dir = str_replace( '\\', '/', get_stylesheet_directory() . '/template-parts/acf-layouts/' );
@@ -290,8 +291,6 @@ function starter_get_included_modules() {
 	return removeBasePathFromArray( $included_files );
 
 }
-
-
 
 function get_all_modules( $type = 'php', &$results = array() ) {
 	$stylesheet_dir = str_replace( '\\', '/', get_stylesheet_directory() . '/template-parts/acf-layouts/' );
@@ -409,13 +408,7 @@ function getSlickSliderConfig($array){
 	return $data;
 }
 function starter_add_theme_styles() {
-	wp_register_style( 'font-awesome', get_theme_file_uri( '/assets/vendor/font-awesome/font-awesome.css' ), '', time() );
-	wp_enqueue_style( 'font-awesome' );
-
-	wp_register_style( 'hamburgers', get_theme_file_uri( '/assets/vendor/hamburgers/hamburgers.min.css' ), '', true );
-	wp_enqueue_style( 'hamburgers' );
-
-	wp_enqueue_style( 'bootstrap' );
+	
 	wp_enqueue_style( 'slick', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', array(), null, 'all' );
 	wp_enqueue_style( 'splide', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css', array(), null, 'all' );
 	
@@ -498,3 +491,13 @@ function myplugin_ajaxurl() {
            var ajaxurl = "' . admin_url( 'admin-ajax.php' ) . '";
          </script>';
 }
+
+
+
+function mytheme_customize_register( $wp_customize ) {
+	//All our sections, settings, and controls will be added here
+
+	
+
+ }
+ add_action( 'customize_register', 'mytheme_customize_register' );

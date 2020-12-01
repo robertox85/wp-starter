@@ -21,18 +21,34 @@ function init() {
     toggleHamburger();
     toggleSearchBar();
     initNavBar();
+    initHeroesPseudoClasses();
+    setUniqueModuleId();
+    setUniqueCarouselId();
+    // todo questa deve funzionare solo con le slide
+    // equalHeights('box');
     
-    // const swup = new Swup();
+    
     jQuery('.slick-slider').slick();
 
+    setTimeout(() => {
+        // truncateBoxInner();
+    }, 100);
 }
 
+function truncateBoxInner(){
+    var boxinner = document.getElementsByClassName('box-inner');
+    for (let index = 0; index < boxinner.length; index++) {
+        const element = boxinner[index];
+        element.children[0].children[0].innerText = truncateString(element.children[0].children[1].innerText, 20);
+        element.children[0].children[1].innerText = truncateString(element.children[0].children[1].innerText, 120);
+    }
+}
 
 function toggleHamburger() {
-    
+
     var hamburger = document.querySelector(".hamburger");
-    
-    hamburger.addEventListener("click", function() {
+
+    hamburger.addEventListener("click", function () {
         hamburger.classList.toggle("is-active");
         body[0].classList.toggle('overlay');
         setTimeout(() => {
@@ -45,7 +61,7 @@ function toggleSearchBar() {
 
     tl.staggerTo(selectReversed(".navbar-nav > .menu-item"), 0.4, { scale: 0 }, 0.1);
 
-    btnSearch[0].addEventListener('click', function() {
+    btnSearch[0].addEventListener('click', function () {
         tl.reversed() ? tl.play() : tl.reverse();
         searchBar[0].classList.toggle('active');
         btnSearch[0].classList.toggle('hide');
@@ -55,11 +71,11 @@ function toggleSearchBar() {
         }, 500);
     });
 
-    closeButton[0].addEventListener('click', function() {
+    closeButton[0].addEventListener('click', function () {
         closeSearchBar();
     });
 
-    window.addEventListener('click', function(e) {
+    window.addEventListener('click', function (e) {
         if (!searchBox[0].contains(e.target) && !tl.reversed()) {
             closeSearchBar();
         }
@@ -70,12 +86,86 @@ function toggleSearchBar() {
 function closeSearchBar() {
 
     tl.reverse();
-    
+
     searchBar[0].classList.toggle('active');
     btnSearch[0].classList.toggle('hide');
     body[0].classList.toggle('overlay');
     inputSearch[0].value = '';
-    
+
+}
+
+function setUniqueModuleId(){
+    var modulo = document.getElementsByClassName('modulo');
+    if(modulo.length > 0){
+        for (let index = 0; index < modulo.length; index++) {
+            const element = modulo[index];
+            element.id = 'moduloID-' + index;
+        }
+    }
+}
+function setUniqueCarouselId(){
+    var carousel = document.getElementsByClassName('carousel');
+    if(carousel.length > 0){
+        for (let index = 0; index < carousel.length; index++) {
+            const element = carousel[index];
+            parentID = element.parentElement.getAttribute('id').toString().replace('moduloID-','');
+            element.id = 'carouselID-' + parentID;
+            element.querySelectorAll('[role="button"]')[0].href = '#'+element.id;
+            element.querySelectorAll('[role="button"]')[1].href = '#'+element.id;
+        }
+    }
+}
+function initHeroesPseudoClasses(){
+    var addRule = (function (style) {
+        var sheet = document.head.appendChild(style).sheet;
+        return function (selector, css) {
+            var propText = typeof css === "string" ? css : Object.keys(css).map(function (p) {
+                return p + ":" + (p === "content" ? "'" + css[p] + "'" : css[p]);
+            }).join(";");
+            sheet.insertRule(selector + "{" + propText + "}", sheet.cssRules.length);
+        };
+    })(document.createElement("style"));
+    var heroes = document.getElementsByClassName('heroes');
+    if(heroes.length > 0){
+        for (let index = 0; index < heroes.length; index++) {
+            const element = heroes[index];
+            element.id = 'heroes' + index;
+            var string = '#heroes' + index +' .heroes-container--single:before';
+            addRule(string, {
+                'background-image': "url("+element.getAttribute('data-src')+")", 
+            });   
+        }
+    }
+}
+
+
+
+
+function truncateString(str, num) {
+    // If the length of str is less than or equal to num
+    // just return str--don't truncate it.
+    if (str.length <= num) {
+        return str
+    }
+    // Return str truncated with '...' concatenated to the end of str.
+    return str.slice(0, num) + '...'
+}
+
+function equalHeights(className) {
+    var findClass = document.getElementsByClassName(className);
+    var tallest = 0;
+    if (findClass.length > 0) {
+        // Loop over matching divs
+        for (i = 0; i < findClass.length; i++) {
+            var ele = findClass[i];
+            var eleHeight = ele.offsetHeight;
+            tallest = (eleHeight > tallest ? eleHeight : tallest); /* look up ternary operator if you dont know what this is */
+        }
+        for (i = 0; i < findClass.length; i++) {
+            findClass[i].style.height = tallest + "px";
+        }
+    }
+
 }
 
 function initNavBar() {

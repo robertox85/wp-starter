@@ -1,0 +1,22 @@
+.card{
+    border-radius: 0;
+    border: 0;
+    
+    @media screen and (min-width: 1200px){
+        &:not(:last-of-type) {
+            border-right: 1px solid #E0E2E6;
+            box-shadow: inset -1px 0 0 0 #E0E2E6;
+        }        
+    }
+
+    .card-container{
+        .card-body{
+            i{
+                color: var(--color-standard);
+                margin-bottom: rem(8px);
+                font-size: 3.5625rem;
+            }
+        }   
+    }
+
+}

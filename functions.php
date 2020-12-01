@@ -16,8 +16,6 @@ require 'class/StarterSite.php';
 require 'core/functions/hook.php';
 require 'core/functions/custom.php';
 require 'core/actions-filters.php';
-// require 'core/inc/admin/customizer.php';
-
 
 //  Load class
 require 'class/Helper.php';

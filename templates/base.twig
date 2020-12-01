@@ -1,45 +1,58 @@
 {% block html_head_container %}
 
-{% include 'html-header.twig' %}
-	{% block head %}
-	{% endblock %}
-	</head>
-{% endblock %}
+	{% include 'html-header.twig' %}
+	{% block head %}{% endblock %}
+</head>{% endblock %}
 
-	<body class="{{body_class}}" data-template="base.twig">
-		<a class="skip-link screen-reader-text" href="#content">{{ _e( 'Skip to content') }}</a>
-		<header class="header" >
-			{% block header %}
-				<div class="wrapper">
-					<h1 class="hdr-logo" role="banner">
-						<a class="hdr-logo-link" href="{{site.url}}" rel="home">{{site.name}}</a>
-					</h1>
-					<nav id="nav-main" class="nav-main" role="navigation">
+<body class="{{body_class}}" data-template="base.twig">
+
+<a class="skip-link screen-reader-text" href="#content">{{ _e( 'Skip to content') }}</a>
+
+
+<header id="v1" class="masthead">
+	{% block header %}
+		<div class="masthead--container">
+			<nav class="navbar main-navigation container-fluid navbar-expand-xl">
+				<div class="container nav--inner">
+
+					<a class="navbar-brand" href="http://wordpress.local" style="background-image:url(http://wordpress.local/wp-content/uploads/2020/08/logo-luiss-blue.png)"></a>
+
+					<button class="hamburger hamburger--collapse navbar-toggler d-xl-none ml-auto" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+
+
+					<div class="collapse navbar-collapse position-relative" id="mainNavigation">
 						{% include "menu.twig" with {'items': menu.get_items} %}
-					</nav><!-- #nav -->
+					</div>
 				</div>
-			{% endblock %}
-		</header>
+			</nav>
+			<!-- #nav -->
+		</div>
+	{% endblock %}
+</header>
 
-		<section id="content" role="main" class="content-wrapper">
-			{% if title %}<h1>{{title}}</h1>{% endif %}
-			<div class="wrapper {{sidebar_class}}">
-				{% block content %}
-					Sorry, no content
-				{% endblock %}
-			</div>
-			{% if sidebar %}
-				<aside class="layout-sidebar">
-					{{sidebar}}
-				</aside>
-			{% endif %}
-		</section>
-
-		{% block footer %}
-			<footer id="footer">
-				{% include 'footer.twig' %}
-			</footer>
-			{{ function('wp_footer') }}
+<section id="content" role="main" class="content-wrapper">
+	{% if title %}
+		<h1>{{title}}</h1>
+	{% endif %}
+	<div class="wrapper {{sidebar_class}}">
+		{% block content %}
+			Sorry, no content
 		{% endblock %}
-	</body>
-</html>
+	</div>
+	{% if sidebar %}
+		<aside class="layout-sidebar">
+			{{sidebar}}
+		</aside>
+	{% endif %}
+</section>
+
+{% block footer %}
+	<footer id="footer">
+		{% include 'footer.twig' %}
+	</footer>
+	{{ function('wp_footer') }}
+{% endblock %}</body></html>

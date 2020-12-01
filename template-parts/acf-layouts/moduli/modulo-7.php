@@ -1,5 +1,5 @@
 <?php if (get_row_layout() == 'modulo_7'): ?>
-<div class="modulo-7 my-2 my-md-0">
+<div class="modulo modulo-7 my-2 my-md-0">
 
 <?php if (have_rows('ripetitore')): ?>
     <div id="carouselId" class="carousel slide" data-ride="carousel">

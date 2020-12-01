@@ -10,13 +10,11 @@
     font-weight: bold;
 }
 
-// A partire dai colori definiti su _colors.scss, genera classi per bottoni pieni (compresi gli stati :hover e :focus)
 // es .button-standard, .button-standard--light
 .button{
     @include button($button-type: 'solid', $button-radius: 0, $button-size: '', $prefix: "-");
 }
 
-// A partire dai colori definiti su _colors.scss, genera classi per bottoni outline (compresi gli stati :hover e :focus)
 // es .button-outline-standard, .button-outline-standard--light
 .button-outline{
     @include button($button-type: 'outline', $button-radius: 0, $button-size: '', $prefix: "-");

@@ -1,12 +1,9 @@
 <?php if (get_row_layout() == 'modulo_4'): ?>
-<div class="modulo-4 container-fluid py-5 my-2 my-md-0">
-	<div id="accordianId" class="container px-0" role="tablist" aria-multiselectable="true">
+<div class="modulo modulo-4 container-fluid py-5 my-2 my-md-0">
+	<div id="accordianId" class="" role="tablist" aria-multiselectable="true">
 		<?php if ( have_rows( 'ripetitore' ) ) : ?>
 			<?php $i = 0; ?>
-			<?php
-			while ( have_rows( 'ripetitore' ) ) :
-				the_row();
-				?>
+			<?php while ( have_rows( 'ripetitore' ) ) : the_row(); ?>
 				<div class="accordion">
 					<div class="accordion-header" role="tab" id="section<?php echo $i; ?>HeaderId">
 						<p class="mb-0">
@@ -23,12 +20,8 @@
 						</div>
 					</div>
 				</div>
-				<?php
-				$i++;
-			endwhile;
-			?>
+				<?php $i++; endwhile; ?>
 		<?php endif; ?>
 	</div>
-
 </div>
 <?php endif; ?>
